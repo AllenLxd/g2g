@@ -22,15 +22,14 @@
 		color: #333333;
 		background-color: #fff;
 	}
+	.btn{
+        border: none;
+	}
 
 	a { 
 		cursor: pointer;
 		color: #000;
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
+		
 	}
 
 	a:hover {
@@ -57,6 +56,8 @@
 
 	h1, h2, h3, h4, h5, h6,p{
 		font-family: avant;
+		margin-top:0px;
+		margin-bottom:0px;
 	}
 
 	input, textarea{
@@ -348,7 +349,7 @@
 	}
 
 
-/* Section*/
+/* Section-links*/
         .section-padding{
         	   padding: 0px;
         	   margin: 0px;
@@ -410,6 +411,7 @@
 			height:120px;
 			margin-top: -20px;
 		}
+		
 		.warranty-title{
 			background: url('../images/warranty-title.jpg')  no-repeat;			
 		}
@@ -419,6 +421,26 @@
 		.sample-title{			
 			background: url('../images/sample-title.jpg')  no-repeat;			
 		}
+		.btn-sample{
+			width:65px;
+			height:30px;
+			margin:0 auto;
+		}
+		.form-group select.form-control{
+			appearance:none;
+			-moz-appearance:none;
+			-webkit-appearance:none;
+			background:url('../images/select-arrow.png') no-repeat 95% center;
+			cursor: pointer;
+		}
+		#sample-request .request-btn{
+			width: 40%;
+		}
+		#sample-request textarea {
+		    width: 100%;
+		    padding: 10px 15px;
+		    border: 1px solid#EEE;
+        }
 		.catalog-title{
 			background: url('../images/catalog-title.jpg')  no-repeat;			
 		}
@@ -446,6 +468,9 @@
 		.flip-item .tech-logo{
 			width:100px;
 			height: 100px;			
+		}
+		.link-sample a{
+			margin:0 auto;
 		}
 		/* Custom Flipster Styles */
 		
@@ -567,28 +592,45 @@
        }
        /*labor system*/
       .labor{
-      	padding:10px 0;
       	background:#2a2a2a;
       	margin: 0 auto;
       	color:#ffffff;
       }
+      .labor-nav{
+      	height:80px;
+      	padding:15px 0px;
+      }
       .labor-title{
       	display:inline-block;
-      	font-size: 35px;
+      	font-size: 30px;
+      	line-height:50px;
+      	width:200px;
+      	height:50px;
       }
-      .labor-button{
+      .login{
       	display: inline-block;
+        margin-left:30px; 
+        width:120px;
+        padding:7px 10px;
+        margin-bottom:15px;
+        vertical-align: middle;
+           
       }
-      .btn-log{
-      	margin-bottom:15px;
-      	padding: 7px 10px;
-      	background:#2a2a2a;
-      	border-color:#ffffff;
-      	width: 100px;     	
-      	margin-left: 30px;
+      .login a{
+      	background:#72b70f;  
+      	padding: 0px 10px; 
+        font-size:16px;
+        line-height:30px;
+        padding:3px 15px;
+        display: block;
+        border:1px solid #72b70f;
+        color:#ffffff;
+        border-radius:4px;
       }
-      .btn-log:hover{
-      	color:#ffffff; 	
+      .login a:hover,.login a:active,.login a:visited {
+      	color:#ffffff;
+      	background:#5cb85c;     	
+        border:1px solid #72b70f;
       }
       /*footer*/
      .foot-bg{
@@ -631,3 +673,34 @@
 	.foot-bg h5{
      	margin-top: 60px;
      }
+    /*sign up*/
+   .signup{
+   	  max-width: 54%;
+   	  padding: 30px 30px;
+   }
+    /*about us*/
+   .about{
+   	   padding: 60px 0 0 0 ;
+   	   background:url('../images/about/about_bg.jpg')  no-repeat;
+     	
+   }
+    .about h1{
+   	   padding: 120px 0 30px 0;	
+   	   color: #ffffff;
+   	   font-size:60px;
+   }
+	.about p{
+	   	   padding:30px 150px 120px 150px;	
+	   	   color: #ffffff;
+	   	   font-size:20px;
+	 }
+	 .about-title{
+	 	   padding: 50px 0px 30px 0px;
+	 	   font-size: 40px;
+	 }
+	 .about-content{
+	 	  background:url('../images/about/about_content.jpg')  no-repeat;
+	 	  padding: 387px 20px;
+	 	  background-position:center;
+	 }
+
