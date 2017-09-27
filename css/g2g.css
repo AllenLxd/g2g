@@ -4,7 +4,7 @@
   font-family: gotthard; 
   src: url('../fonts/Gotthard.ttf'); 
   font-family: Helvetica; 
-  src: url('../fonts/HelveticaInserat-Roman-SemiBold.ttf'); 
+  src: url('../fonts/HelveticaInserat-Roman-SemiBold.ttf') format('embedded-opentype'); 
 }
 
 
@@ -405,6 +405,7 @@
 		  color: #FFF;
 		  text-align:center;
 		  line-height:120px;
+		  padding-top: 15px;
 		}
 		.title-content{
 			width: 300px;
@@ -420,6 +421,9 @@
 		}
 		.sample-title{			
 			background: url('../images/sample-title.jpg')  no-repeat;			
+		}
+		.claim-title{			
+			background: url('../images/claim-title.jpg')  no-repeat;			
 		}
 		.btn-sample{
 			width:65px;
@@ -466,6 +470,10 @@
 			height: 100px;			
 		}
 		.flip-item .tech-logo{
+			width:100px;
+			height: 100px;			
+		}
+		.flip-item .claim-logo{
 			width:100px;
 			height: 100px;			
 		}
@@ -685,7 +693,7 @@
      	
    }
     .about h1{
-   	   padding: 120px 0 30px 0;	
+    	   padding: 120px 0px 30px 0px; 
    	   color: #ffffff;
    	   font-size:60px;
    }
@@ -695,12 +703,323 @@
 	   	   font-size:20px;
 	 }
 	 .about-title{
-	 	   padding: 50px 0px 30px 0px;
+	 	   padding: 60px 0px 40px 0px;
 	 	   font-size: 40px;
 	 }
 	 .about-content{
 	 	  background:url('../images/about/about_content.jpg')  no-repeat;
-	 	  padding: 387px 20px;
+	 	  padding:560px 150px 100px 375px;
 	 	  background-position:center;
+	 	  color:#ffffff;
+	 	  margin-bottom: 70px;
+	 }
+	 
+	 /*service*/
+	 .service{
+	   padding: 50px 0 0 0 ;
+	 } 
+	 .service-content{
+	 	width: 60%;
+	    position: absolute;
+	    top: 30%;
+	    left: 20%;
+	    text-align: center;
+	    color: #ffffff;
+	 }
+	 .service-content h2{
+	 	font-size: 50px;
+        margin-bottom: 20px;
+	 }
+	 .service-content p{
+	 	color:#ffffff;
+	 	font-size:20px;
+	 }
+	 .service-layout{
+	 	
+	 	text-align: center;
+	    padding: 40px 350px;
+	    width: 100%;
+	    background: #f5f5f5;
+	 }
+	 .service-layout h2{
+	 	margin-top: 0px;
+	 	margin-bottom: 30px;
+	 	color: #6E6E6E;
+	 }
+	 .service-layout p{	 	
+	 	margin-bottom: 30px;
+	 	color: #6E6E6E;
 	 }
 
+   /**product page开始**/
+    .productcontent{
+    	     margin-top: 
+    }
+	.productInner{
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+	}
+	.productInner > .productItem.active{
+		left: 0;
+	}
+	.productInner > .active{
+		display:block;
+	}
+	
+	.productItem{
+		position: relative;
+		display: none;
+		float:left;
+	}
+	.produtcbg{
+		position:absolute;
+		left:0px;
+	}
+	.classify{
+		height:40px;
+		width:600px;
+		position:absolute;
+		margin:auto;
+		bottom:0px;
+		left:0px;
+		right:0px;
+	}
+	.classifyactivebtn{
+		 display:block;
+		 float:left;
+		 line-height:40px;
+		 padding: 0px 5px;
+		 font-size:18px;
+		 background:#ffffff;
+		 margin-right:5px;
+		 color:#444444;
+		 width:190px;
+		 opacity:0.8;
+		 cursor:pointer;
+	
+	 }
+	.classifyactivebtn:hover{
+		text-decoration:none;
+		background:#9bc641;
+		color:#ffffff;
+	}
+	.classifyactive{
+		background:#9bc641;
+		color:#ffffff;
+	
+	}
+	.classifyactive:visited{
+		text-decoration:none;
+	
+	}
+	.secondclassify{
+		height:45px;
+		width:100%;
+		background:#ededed;
+		padding:5px 0 0 0;
+		padding-bottom:5px;
+	
+	}
+	
+	.lead{
+		font-size:15px;
+		font-weight:400;
+		line-height:24px;
+	}
+	
+	
+	
+	.link-filter .btn-default.active.focus, .link-filter .btn-default.active:focus, .link-filter .btn-default.active:hover, .link-filter .btn-default:active.focus, .link-filter .btn-default:active:focus, .link-filter .btn-default:active:hover,.link-filter .btn-default:hover,.link-filter .btn-default.active {
+		color: #fff;
+		background-color: #f39c12;
+		border-color: #f39c12;
+		outline: none;
+		
+	}
+	
+	/**link-filter的CSS**/
+	
+	.portfolio-filter{
+		margin:0 0 20px 0;
+		padding:0px;
+	}
+	
+	.portfolio-filter > li {
+		display:inline-block;
+		margin:0 0 0 0;
+	
+	}
+	
+	
+	.secondclassify  li a.btn-default {
+		font-size: 14px;
+		font-weight: 400;
+		width:200px;
+		height:40px;
+		line-height:30px;
+		outline: none;
+		border:none;
+		color:#464646;
+		background:url('../images/productup.png') no-repeat;
+	}
+	.secondclassify  li a.btn-default.active {
+		background:url('../images/productdown.png') no-repeat;
+		background-color:#ffffff;
+	}
+	.secondclassify  li a.all{
+		background:none;
+	}
+	.secondclassify  li a.all.active{
+		background:#ffffff;
+	
+	}
+	.secondclassify  li a.letter{
+		background-position:27px 12px;
+	}
+	.secondclassify  li a.letter.active{
+		background-position:28px 12px;
+	
+	}
+	.secondclassify  li a.product_sign{
+		background-position:38px 12px;
+	}
+	.secondclassify  li a.product_sign.active{
+		background-position:38px 12px;
+	}
+	.secondclassify  li a.neon{
+		background-position:43px 12px;
+	}
+	.secondclassify  li a.neon.active{
+		background-position:43px 12px;
+	}
+	.secondclassify  li a.controller{
+		background-position:20px 12px;
+	}
+	.secondclassify  li a.controller.active{
+		background-position:20px 12px;
+	}
+	
+	.secondclassify  li a.accessories{
+		background-position:43px 12px;
+	}
+	.secondclassify  li a.accessories.active{
+		background-position:43px 12px;
+	}
+	
+	.secondclassify  li a.wall{
+		background-position:38px 12px;
+	}
+	.secondclassify  li a.wall.active{
+		background-position:38px 12px;
+	}
+	.secondclassify  li a.flood{
+		background-position:40px 12px;
+	}
+	.secondclassify  li a.flood.active{
+		background-position:40px 12px;
+	}
+	.secondclassify  li a.shoe{
+		background-position:28px 12px;
+	}
+	.secondclassify  li a.shoe.active{
+		background-position:33px 12px;
+	}
+	.secondclassify  li a.retrofit{
+		background-position:45px 12px;
+	}
+	.secondclassify  li a.retrofit.active{
+		background-position:45px 12px;
+	}
+	.secondclassify  li a.t8{
+		background-position:55px 12px;
+	}
+	.secondclassify  li a.t8.active{
+		background-position:55px 12px;
+	}
+	.btn:active, .btn.active {
+		background-image: none;
+		box-shadow:none;
+		outline: 0 none;
+	}
+	.btn{
+		border-radius:0px;
+	}
+	.portfolio-filter .btn-default.active.focus, .portfolio-filter .btn-default.active:focus, .portfolio-filter .btn-default.active:hover, .portfolio-filter .btn-default:active.focus, .portfolio-filter .btn-default:active:focus, .portfolio-filter .btn-default:active:hover,.portfolio-filter .btn-default:hover,.portfolio-filter .btn-default.active {
+		color: #9bc641;
+		background-color: #ffffff;
+		outline: none;
+	
+	}
+	.thirdclassify .btn-default.active.focus, .thirdclassify .btn-default.active:focus, .thirdclassify .btn-default.active:hover, .thirdclassify .btn-default:active.focus, .thirdclassify .btn-default:active:focus, .thirdclassify .btn-default:active:hover,.thirdclassify .btn-default:hover,.thirdclassify .btn-default.active {
+		color: #9bc641;
+		background-color: #ffffff;
+		outline: none;
+	
+	}
+	.thirdclassify  li a.btn-default {
+		background: #ffffff;
+		font-size: 13px;
+		font-weight: 400;
+		width:130px;
+		height:50px;
+		line-height:40px;
+		transition: all 0.9s ease 0s;
+		-moz-transition: all 0.9s ease 0s;
+		-webkit-transition: all 0.9s ease 0s;
+		-o-transition: all 0.9s ease 0s;
+		outline: none;
+		border:none;
+		color:#464646;
+	
+	}
+	.portfolio-items{
+		margin:0 0 40px 0;
+		padding:0px;
+	}
+	.portfolio-item {
+	    margin: 0;
+	    padding: 5px 5px 5px 5px;
+	}
+	/* Start: Recommended Isotope styles */
+	/**** Isotope Filtering ****/
+	.isotope-item {
+		z-index: 2;
+	}
+	.isotope-hidden.isotope-item {
+		pointer-events: none;
+		z-index: 1;
+	}
+	/**** Isotope CSS3 transitions ****/
+	.isotope, .isotope .isotope-item {
+		-webkit-transition-duration: 0.8s;
+		-moz-transition-duration: 0.8s;
+		-ms-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+	}
+	.isotope {
+		-webkit-transition-property: height, width;
+		-moz-transition-property: height, width;
+		-ms-transition-property: height, width;
+		-o-transition-property: height, width;
+		transition-property: height, width;
+	}
+	.isotope .isotope-item {
+		-webkit-transition-property: -webkit-transform, opacity;
+		-moz-transition-property: -moz-transform, opacity;
+		-ms-transition-property: -ms-transform, opacity;
+		-o-transition-property: -o-transform, opacity;
+		transition-property: transform, opacity;
+	}
+	/**** disabling Isotope CSS3 transitions ****/
+	.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+		-webkit-transition-duration: 0s;
+		-moz-transition-duration: 0s;
+		-ms-transition-duration: 0s;
+		-o-transition-duration: 0s;
+		transition-duration: 0s;
+	}
+	/* End: Recommended Isotope styles */
+	
+	/**products page 结束**/
