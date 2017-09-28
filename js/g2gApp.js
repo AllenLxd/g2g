@@ -159,7 +159,7 @@
 		$scope.cid = '';
 		$scope.flag = 1;
 		$scope.filtered = $scope.products
-		
+
 	    $scope.filterProducts = function(pid, cid) {
 			    //赋值
 				if(pid == 'signlighting') {
@@ -195,3 +195,4 @@
 
 		    
 })(window.angular);
+
