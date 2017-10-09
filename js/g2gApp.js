@@ -11,7 +11,7 @@
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_mini_red.jpg', href: 'Aurora-mini-red.html'},
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_mini_white.jpg', href: 'Aurora-mini-white.html'},
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_iii_gen_i.jpg', href: 'Aurora-III-GenI.html'},
-			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'Aurora-sv-white.html'},
+			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'aurora_sv_white.html'},
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'Aurora-sv-red.html'},
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'Aurora-red.html'},
 			/*{pid:'signlighting', cid:'nox', img: 'channel_letter/nox.jpg', href: 'NOX-Series.html'},*/
@@ -87,7 +87,7 @@
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_mini_red.jpg', href: 'Aurora-mini-red.html'},
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_mini_white.jpg', href: 'Aurora-mini-white.html'},
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_iii_gen_i.jpg', href: 'Aurora-III-GenI.html'},
-			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'Aurora-sv-white.html'},
+			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'aurora_sv_white.html'},
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'Aurora-sv-red.html'},
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'Aurora-red.html'},
 			/*{pid:'letter', cid:'nox', img: 'channel_letter/nox.jpg', href: 'NOX-Series.html'},*/
