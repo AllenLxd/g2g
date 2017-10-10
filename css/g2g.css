@@ -803,33 +803,49 @@
    	  max-width: 54%;
    	  padding: 30px 30px;
    }
-    /*about us*/
-   .about{
-   	   padding: 60px 0 0 0 ;
-   	   background:url('../images/about/about_bg.jpg')  no-repeat;
-     	
-   }
-    .about h1{
-    	   padding: 120px 0px 30px 0px; 
-   	   color: #ffffff;
-   	   font-size:60px;
-   }
-	.about p{
-	   	   padding:30px 150px 120px 150px;	
-	   	   color: #ffffff;
-	   	   font-size:20px;
-	 }
-	 .about-title{
-	 	   padding: 60px 0px 40px 0px;
-	 	   font-size: 40px;
-	 }
-	 .about-content{
-	 	  background:url('../images/about/about_content.jpg')  no-repeat;
-	 	  padding:560px 150px 100px 375px;
-	 	  background-position:center;
-	 	  color:#ffffff;
-	 	  margin-bottom: 70px;
-	 }
+    /*about us开始*/
+.aboutus_bg{
+	background: url(../images/about/about_bg.jpg) no-repeat;
+	min-height: 558px;
+	position: relative;
+	padding-top: 180px;
+	text-align: center;
+	color: #ffffff;
+	background-size: 1350px;
+}
+.aboutUsTp{
+	padding-top:20px;
+	margin-bottom:20px;
+}
+.about-us{
+	margin-bottom:20px;
+}
+.our-culture{
+	padding:0 3;
+}
+.introduction{
+	background:url('../images/about/about_content.jpg') no-repeat;
+	height:796px;
+	width:899px;
+	position:relative;
+	margin:0 auto;
+}
+.aboutUsContent{
+	position:absolute;
+	width:600px;
+	height:240px;
+	bottom:50px;
+	right:40px;
+	color:#ffffff;
+	-webkit-right: 18%;
+    -moz-right: 18%;
+}
+.aboutUsContent p{
+	line-height:24px;
+	letter-spacing:2px;
+}
+
+/*about us结束*/
 	 
 	 /*service*/
 	 .service{
@@ -1196,6 +1212,41 @@
 	.detail-files{
 		padding:20px 10px;
 	}
+	.catalog-link{
+		padding:5px 5px;
+		color:#ffffff;
+		width:210px;
+		height:40px; 
+		margin-bottom:10px;
+	}
+	.catalog-link a{
+		display:block;
+		color:#ffffff;
+		height:100%;
+		width:100%;
+		margin:0 auto;
+		
+
+	}
+	.catalog-link a span.catalog{
+		display:inline-block;
+		text-align:center;
+		font-size: 18px;
+		background:#898989;
+		color:#ffffff;
+		margin:0px;
+		width:170px;
+		padding:2.5px 2.5px;
+		float:left;
+	}
+	.catalog-link a span.arrow{
+		display:inline-block;
+		float:left;
+		width:30px;
+		height:30px;		
+		background: url('../images/arrow.jpg')  no-repeat;
+	
+	}
 	/**videos开始**/
     .installation-video {
 		background: #eee7e4;
@@ -1292,3 +1343,144 @@
 	.contact-form-info input {
 	    margin: 0 14px 20px 0;
 	}
+	
+	/*category page开始*/
+.signHead{
+	padding:5% 0;
+	background:#f5f5f5;
+}
+.clearBoth{
+	width:33.3333%
+}
+.container-fluid{
+	padding-left:0px;
+	padding-right:0px;
+	position:relative;
+}
+.img-responsive{
+	border-radius:0px;
+}
+.category{
+	padding-top:3%;
+	width:850px;
+}
+.row{
+	margin-left:0px;
+	margin-right:0px;
+}
+.category ul li{
+	float:left;
+	padding:2% 0;
+	font-size:18px;
+	margin-right:110px;
+}
+.category ul li.sign{
+	border-bottom: 3px solid #feb518;
+}
+.signSpace{
+	margin-left:60px;
+}
+.productLink{
+	font-size:18px;
+	color:#fbb41a;
+	text-decoration:underline;
+}
+.productLink:hover{
+	color:#72d5bc;
+}
+.borderSet{
+	border-bottom:1px solid #d8d4d4;
+}
+.signContent{
+	background:url('../images/letterBg.jpg') no-repeat;
+	width:650px;
+	height:755px;
+	background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    position:relative;
+    margin:0 auto;
+}
+.channelLetter{
+	width:250px;
+	height:250px;
+	position:absolute;
+	top:30px;
+	right:0px;
+}
+.categoryTitle{
+	padding-bottom:15px;
+}
+.categoryP{
+	line-height:25px;
+	margin-bottom:30px;
+}
+.signBox{
+	width:250px;
+	height:250px;
+	position:absolute;
+	bottom:70px;
+	left:0px;
+}
+.outdoorContent{
+	background:url('../images/outdoorBg.jpg') no-repeat;
+	height:1122px;
+	width:650px;
+	background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    position:relative;
+    margin:0 auto;
+}
+.retrofitKit{
+	width:250px;
+	height:250px;
+	position:absolute;
+	top:30px;
+	right:0px;
+}
+.shoebox{
+	width:250px;
+	height:250px;
+	position:absolute;
+	bottom:460px;
+	left:0px;
+}
+.floodLight{
+	width:250px;
+	height:250px;
+	position:absolute;
+	bottom:90px;
+	right:0px;
+}
+
+.commercialContent{
+	background:url('../images/commercialBg.jpg') no-repeat;
+	height:343px;
+	width:650px;
+	background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    position:relative;
+    margin:0 auto;
+    margin-bottom:60px;
+}
+.tube{
+	width:250px;
+	height:250px;
+	position:absolute;
+	bottom:60px;
+	right:0px;
+}
+.category_caption {
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    color: #ffffff;
+}
+/*category page结束*/

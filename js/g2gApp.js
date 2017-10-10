@@ -6,28 +6,29 @@
 		
 		$scope.products = [
 
-			{pid:'signlighting', cid:'trico', img: 'channel_letter/trico.jpg', href: 'TriCo-Series.html'},
-			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_i_gen_iv.jpg', href: 'Aurora-I-GenIV.html'},
-			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_mini_red.jpg', href: 'Aurora-mini-red.html'},
-			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_mini_white.jpg', href: 'Aurora-mini-white.html'},
-			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_iii_gen_i.jpg', href: 'Aurora-III-GenI.html'},
+			{pid:'signlighting', cid:'trico', img: 'channel_letter/trico.jpg', href: 'trico.html'},
+			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_i_gen_iv.jpg', href: 'aurora_i_gen_iv.html'},
+			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_mini_red.jpg', href: 'aurora_mini_red.html'},
+			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_mini_white.jpg', href: 'aurora_mini_white.html'},
+			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_iii_gen_i.jpg', href: 'aurora_iii_gen_i.html'},
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'aurora_sv_white.html'},
-			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'Aurora-sv-red.html'},
-			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'Aurora-red.html'},
+			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'aurora_sv_red.html'},
+			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'aurora_i_red.html'},
 			/*{pid:'signlighting', cid:'nox', img: 'channel_letter/nox.jpg', href: 'NOX-Series.html'},*/
-			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro.jpg', href: 'AnPro-Series.html'},
-			{pid:'signlighting', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'WOW-Series.html'},
+			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro.jpg', href: 'anpro_160.html'},
+			{pid:'signlighting', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'wow_series.html'},
 			/*{pid:'signlighting', cid:'wow', img: 'channel_letter/wow_red.jpg', href: 'WOW-Red.html'},*/
-			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_pro.html'},
+			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_180.html'},
 			{pid:'signlighting', cid:'micro', img: 'channel_letter/micro.jpg', href: 'g2g_micro.html'},
 			
 			
 
-			{pid:'signlighting', cid:'side', img: 'sign_box/side.jpg', href: 'Side-Lighting-System.html'},
-			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'ArRay-Lighting-System.html'},
+			{pid:'signlighting', cid:'side', img: 'sign_box/side.jpg', href: 'side.html'},
+			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sf.html'},
+			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sd.html'},
 			/*{pid:'signlighting', cid:'sparx', img: 'sign_box/sparx.jpg', href: 'SparX-Lighting-System.html'},*/
-			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'Trident-DF.html'},
-			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'Trident-SF.html'},
+			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'trident_df.html'},
+			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'trident_sf.html'},
 			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_stick_df.html'},
 			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/stick_sf.jpg', href: 'trident_stick_sf.html'},
 			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/trident_premier_stick.jpg', href: 'trident_premier_stick.html'},
@@ -35,8 +36,8 @@
 			{pid:'signlighting', cid:'tridentbracket', img: 'accessories/tridentbracket.jpg', href: 'tridentbracket.html'},
 			{pid:'signlighting', cid:'hosocket', img: 'accessories/hosocket.jpg', href: 'Ho_socket.html'},
 			{pid:'signlighting', cid:'neon', img: 'neon/neon.jpg', href: 'neon.html'},
-			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_sf.jpg', href: 'anpro_stick_sf.html'},
-			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_df.jpg', href: 'anpro_stick_df.html'},
+			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_sf.jpg', href: 'anpro_180_stick_sf.html'},
+			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_df.jpg', href: 'anpro_180_stick_df.html'},
 
 			{pid:'outdoorlighting', cid:'oona-slim', img: 'wall_washer/oona_slim.jpg', href: 'oona_slim_wall_washer.html'},
 			{pid:'outdoorlighting', cid:'i_series', img: 'wall_washer/lww_1.jpg', href: 'Wall-Washer-I-Series.html'},
@@ -82,31 +83,32 @@
 
 
             /*calss2*/
-			{pid:'letter', cid:'trico', img: 'channel_letter/trico.jpg', href: 'TriCo-Series.html'},
-			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_i_gen_iv.jpg', href: 'Aurora-I-GenIV.html'},
-			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_mini_red.jpg', href: 'Aurora-mini-red.html'},
-			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_mini_white.jpg', href: 'Aurora-mini-white.html'},
-			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_iii_gen_i.jpg', href: 'Aurora-III-GenI.html'},
+			{pid:'letter', cid:'trico', img: 'channel_letter/trico.jpg', href: 'trico.html'},
+			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_i_gen_iv.jpg', href: 'aurora_i_gen_iv.html'},
+			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_mini_red.jpg', href: 'aurora_mini_red.html'},
+			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_mini_white.jpg', href: 'aurora_mini_white.html'},
+			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_iii_gen_i.jpg', href: 'aurora_iii_gen_i.html'},
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'aurora_sv_white.html'},
-			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'Aurora-sv-red.html'},
-			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'Aurora-red.html'},
+			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'aurora_sv_red.html'},
+			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'aurora_i_red.html'},
 			/*{pid:'letter', cid:'nox', img: 'channel_letter/nox.jpg', href: 'NOX-Series.html'},*/
-			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro.jpg', href: 'AnPro-Series.html'},
-			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_pro.html'},
-			{pid:'letter', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'WOW-Series.html'},
+			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro.jpg', href: 'anpro_160.html'},
+			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_180.html'},
+			{pid:'letter', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'wow_series.html'},
 			/*{pid:'letter', cid:'wow', img: 'channel_letter/wow_red.jpg', href: 'WOW-Red.html'},*/
 			{pid:'letter', cid:'micro', img: 'channel_letter/micro.jpg', href: 'g2g_micro.html'},
 
-			{pid:'sign', cid:'side', img: 'sign_box/side.jpg', href: 'Side-Lighting-System.html'},
-			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'ArRay-Lighting-System.html'},
+			{pid:'sign', cid:'side', img: 'sign_box/side.jpg', href: 'side.html'},
+			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sf.html'},
+			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_df.html'},
 			/*{pid:'sign', cid:'sparx', img: 'sign_box/sparx.jpg', href: 'SparX-Lighting-System.html'},*/
-			{pid:'sign', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'Trident-DF.html'},
-			{pid:'sign', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'Trident-SF.html'},
+			{pid:'sign', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'trident_df.html'},
+			{pid:'sign', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'trident_sf.html'},
 			{pid:'sign', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_stick_df.html'},
 			{pid:'sign', cid:'trident-stick', img: 'sign_box/stick_sf.jpg', href: 'trident_stick_sf.html'},
 			{pid:'sign', cid:'trident-stick', img: 'sign_box/trident_premier_stick.jpg', href: 'trident_premier_stick.html'},
-			{pid:'sign', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_sf.jpg', href: 'anpro_stick_sf.html'},
-			{pid:'sign', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_df.jpg', href: 'anpro_stick_df.html'},
+			{pid:'sign', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_sf.jpg', href: 'anpro_180_stick_sf.html'},
+			{pid:'sign', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_df.jpg', href: 'anpro_180_stick_df.html'},
 			
 			{pid:'accessories', cid:'arraybracket', img: 'accessories/arraybracket.jpg', href: 'arraybracket.html'},
 			{pid:'accessories', cid:'tridentbracket', img: 'accessories/tridentbracket.jpg', href: 'tridentbracket.html'},
