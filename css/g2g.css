@@ -42,7 +42,7 @@
         border: none;
 	}
 	.btn-group-lg>.btn, .btn-lg {
-    padding: 7px 12px;
+    padding: 5px 8px;
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;
@@ -283,7 +283,7 @@
 	
 	
 	.carousel-caption a{
-		border-radius: 4px;
+		border-radius: 2px;
 	    margin-top:10px;
 	}
 	.banner-letter {
@@ -349,6 +349,69 @@
 	.banner-oona h1{
 		color:#8a192c;
 	}
+	.banner-flex{
+		left: 25%;
+		top: 23%;
+		color:#ffffff;
+		
+	}
+	.banner-flex h1{
+		font-size:42px;
+		margin-bottom:12px;
+		letter-spacing: 10px;
+	}
+	.banner-flex h2{
+		font-size:55px;
+		margin-bottom:5px;
+		letter-spacing: 10px;
+	}
+	.banner-flex h3{
+		font-size:50px;
+		letter-spacing: 14px;
+	}
+	.banner-flex h3{
+		font-size:50px;
+		letter-spacing: 14px;
+	}
+	
+	.banner-premier{
+		left: 5%;
+		bottom: 33%;
+		color:#ffffff;	
+		transform:rotate(-12deg);
+		-ms-transform:rotate(-12deg); 	/* IE 9 */
+		-moz-transform:rotate(-12deg); 	/* Firefox */
+		-webkit-transform:rotate(-12deg); /* Safari 和 Chrome */
+		-o-transform:rotate(-12deg); 	/* Opera */
+	}
+	.premier-name{
+		padding-top: 30px;
+	}
+	.banner-premier h1{
+		color:#aee9ff;	
+		margin-bottom:25px;
+		font-size:35px;
+	}
+	.banner-premier h1 span{
+		font-size:50px;
+		text-indent:10px;
+		padding-bottom:20px;
+	}
+	.banner-premier h2{		
+		font-size:65px;	
+	}
+	.banner-premier h3{
+		color:#2097f4;	
+		margin-top:10px;
+		font-size:50px;
+	}
+	
+	.banner-premier p{
+		margin-top: 10px;
+	}
+	.premier-content{
+		padding-top: 55px;
+	}
 	
 	
 	
@@ -392,6 +455,7 @@
 
 	#home-carousel .item h1, 
 	#home-carousel .item h2, 
+	#home-carousel .item h3,
 	#home-carousel .item p,
 	#home-carousel .item a{
 		opacity:0;
@@ -412,6 +476,7 @@
 
 	#home-carousel .item.active h1, 
 	#home-carousel .item.active h2, 
+	#home-carousel .item.active h3,
 	#home-carousel .item.active p,
 	#home-carousel .item.active a{
 		opacity:1;
@@ -437,6 +502,14 @@
 		-ms-transition: all 0.5s ease-in-out 0.45s;
 		-o-transition: all 0.5s ease-in-out 0.45s;
 		transition: all 0.5s ease-in-out 0.45s;
+	}
+	#home-carousel .item h3 {
+		
+		-webkit-transition: all 0.5s ease-in-out 0.5s;
+		-moz-transition: all 0.5s ease-in-out 0.5s;
+		-ms-transition: all 0.5s ease-in-out 0.5s;
+		-o-transition: all 0.5s ease-in-out 0.5s;
+		transition: all 0.5s ease-in-out 0.5s;
 	}
 
 	#home-carousel .item p {
@@ -1484,3 +1557,66 @@
     color: #ffffff;
 }
 /*category page结束*/
+
+/*download Page开始*/
+
+.downloadTitle{
+	
+	font-size:30px;
+
+}
+.installation{
+	padding-left:70px;
+	
+}
+.download-text{
+	float:left;
+}
+.download-text p{
+    margin:0;
+	font-size:13px;
+	color: #212121;
+	line-height:25px;
+	text-decoration:underline;
+}
+.SupportBg{
+	background:url('../images/download.jpg') no-repeat;
+	min-height:558px;
+	position:relative;
+	padding-top:180px;
+	text-align:center;
+	color:#ffffff;
+	background-size:1350px;
+}
+.downloadBg{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.download-btn{
+	float:right;
+}
+#downloadContent{
+	padding-left:23%;
+}
+.catalogBtn{
+	padding-right:40px;
+}
+#installation-btn{
+	margin-right:48%;
+}
+
+.artbtn {
+    padding: 3px 5px;
+    background: url(../images/downloadLogo.png) no-repeat 0 7px;
+    border-radius: 3px;
+    font-size: 14px;
+    display: block;
+    width: 40px;
+    height: 20px;
+}
+.downloadTitle {
+    font-size: 30px;
+    padding: 20px 0px;
+}
+/*download Page结束*/

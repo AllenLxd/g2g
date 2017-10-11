@@ -55,10 +55,10 @@
 			{pid:'outdoorlighting', cid:'v_series', img: 'flood_light/flood_50.jpg', href: 'Flood-Light-50W.html'},
 			{pid:'outdoorlighting', cid:'vi_series', img: 'flood_light/flood_100.jpg', href: 'Flood-Light-100W.html'},
 
-			{pid:'signlighting', cid:'wifi300', img: 'controller/wifi_300.jpg', href: 'Controllerwifi300.html'},
-			{pid:'signlighting', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'Controllerdiywifi.html'},
-			{pid:'signlighting', cid:'rf3keys', img: 'controller/rf_3keys.jpg', href: 'ControllerRF3keys.html'},
-			{pid:'signlighting', cid:'knod', img: 'controller/knob.jpg', href: 'ControllerKnod.html'},
+			{pid:'signlighting', cid:'wifi300', img: 'controller/wifi_300.jpg', href: 'wifi_300.html'},
+			{pid:'signlighting', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'diy_wifi.html'},
+			{pid:'signlighting', cid:'rf3keys', img: 'controller/rf_3keys.jpg', href: 'rf_dimmer.html'},
+			{pid:'signlighting', cid:'knod', img: 'controller/knob.jpg', href: 'knob_dimmer.html'},
 
 		   /*{pid:'signlighting', cid:'100W', img: 'power/100W.jpg', href: 'power100W.html'},
 			{pid:'signlighting', cid:'200W', img: 'power/200W.jpg', href: 'power200W.html'},
@@ -133,10 +133,10 @@
 			{pid:'flood', cid:'v_series', img: 'flood_light/flood_50.jpg', href: 'Flood-Light-50W.html'},
 			{pid:'flood', cid:'vi_series', img: 'flood_light/flood_100.jpg', href: 'Flood-Light-100W.html'},
 
-			{pid:'controller', cid:'wifi300', img: 'controller/wifi_300.jpg', href: 'Controllerwifi300.html'},
-			{pid:'controller', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'Controllerdiywifi.html'},
-			{pid:'controller', cid:'rf3keys', img: 'controller/rf_3keys.jpg', href: 'ControllerRF3keys.html'},
-			{pid:'controller', cid:'knod', img: 'controller/knob.jpg', href: 'ControllerKnod.html'},
+			{pid:'controller', cid:'wifi300', img: 'controller/wifi_300.jpg', href: 'wifi_300.html'},
+			{pid:'controller', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'diy_wifi.html'},
+			{pid:'controller', cid:'rf3keys', img: 'controller/rf_3keys.jpg', href: 'rf_dimmer.html'},
+			{pid:'controller', cid:'knod', img: 'controller/knob.jpg', href: 'knob_dimmer.html'},
 
 			
 			{pid:'shoebox', cid:'40W', img: 'shoebox/shoebox_40.jpg', href: 'shoebox40W.html'},
