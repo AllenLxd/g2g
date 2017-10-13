@@ -1245,7 +1245,7 @@
 		position:absolute;
 		width: 35%;
 		height: 20%;
-		top:205px;
+		top:190px;
 		left:85px;
 	}
 	.detail{
@@ -1266,7 +1266,7 @@
 	.featurs-padding{
 		padding: 0px;
 	}
-	.detail-content h4{
+	.featurs h4{
 		padding: 30px 0px;
 	}
 	.featurs-list{

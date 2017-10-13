@@ -19,7 +19,7 @@
 			{pid:'signlighting', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'wow_series.html'},
 			/*{pid:'signlighting', cid:'wow', img: 'channel_letter/wow_red.jpg', href: 'WOW-Red.html'},*/
 			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_180.html'},
-			{pid:'signlighting', cid:'micro', img: 'channel_letter/micro.jpg', href: 'g2g_micro.html'},
+			{pid:'signlighting', cid:'micro', img: 'channel_letter/micro.jpg', href: 'micro.html'},
 			
 			
 
@@ -39,21 +39,21 @@
 			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_sf.jpg', href: 'anpro_180_stick_sf.html'},
 			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_df.jpg', href: 'anpro_180_stick_df.html'},
 
-			{pid:'outdoorlighting', cid:'oona-slim', img: 'wall_washer/oona_slim.jpg', href: 'oona_slim_wall_washer.html'},
-			{pid:'outdoorlighting', cid:'i_series', img: 'wall_washer/lww_1.jpg', href: 'Wall-Washer-I-Series.html'},
-			{pid:'outdoorlighting', cid:'ii_series', img: 'wall_washer/lww_2.jpg', href: 'Wall-Washer-II-Series.html'},
-			{pid:'outdoorlighting', cid:'v_series', img: 'wall_washer/lww_5.jpg', href: 'Wall-Washer-V-Series.html'},
-			{pid:'outdoorlighting', cid:'vi_series', img: 'wall_washer/lww_6.jpg', href: 'Wall-Washer-Ⅵ-Series.html'},
-			{pid:'outdoorlighting', cid:'vii_series', img: 'wall_washer/lww_7.jpg', href: 'Wall-Washer-Ⅶ-Series.html'},
-			{pid:'outdoorlighting', cid:'viii_series', img: 'wall_washer/lww_8.jpg', href: 'Wall-Washer-Ⅷ-Series-LWW-8B-108P.html'},
+			{pid:'outdoorlighting', cid:'oona-slim', img: 'wall_washer/oona_slim.jpg', href: 'oona_slim.html'},
+			{pid:'outdoorlighting', cid:'i_series', img: 'wall_washer/lww_1.jpg', href: 'wall_washer_i_series.html'},
+			{pid:'outdoorlighting', cid:'ii_series', img: 'wall_washer/lww_2.jpg', href: 'wall_washer_ii_series.html'},
+			{pid:'outdoorlighting', cid:'v_series', img: 'wall_washer/lww_5.jpg', href: 'wall_washer_v_series.html'},
+			{pid:'outdoorlighting', cid:'vi_series', img: 'wall_washer/lww_6.jpg', href: 'wall_washer_vi_series.html'},
+			{pid:'outdoorlighting', cid:'vii_series', img: 'wall_washer/lww_7.jpg', href: 'wall_washer_vii_series.html'},
+			{pid:'outdoorlighting', cid:'viii_series', img: 'wall_washer/lww_8.jpg', href: 'wall_washer_viii_series.html'},
 
 
 
-			{pid:'outdoorlighting', cid:'i_series', img: 'flood_light/flood_10.jpg', href: 'Flood-Light-10W.html'},
-			{pid:'outdoorlighting', cid:'ii_series', img: 'flood_light/flood_20.jpg', href: 'Flood-Light-20W.html'},
-			{pid:'outdoorlighting', cid:'iii_series', img: 'flood_light/flood_30.jpg', href: 'Flood-Light-30W.html'},
-			{pid:'outdoorlighting', cid:'v_series', img: 'flood_light/flood_50.jpg', href: 'Flood-Light-50W.html'},
-			{pid:'outdoorlighting', cid:'vi_series', img: 'flood_light/flood_100.jpg', href: 'Flood-Light-100W.html'},
+			{pid:'outdoorlighting', cid:'i_series', img: 'flood_light/flood_10.jpg', href: 'flood_light_10W.html'},
+			{pid:'outdoorlighting', cid:'ii_series', img: 'flood_light/flood_20.jpg', href: 'flood_light_20W.html'},
+			{pid:'outdoorlighting', cid:'iii_series', img: 'flood_light/flood_30.jpg', href: 'flood_light_30W.html'},
+			{pid:'outdoorlighting', cid:'v_series', img: 'flood_light/flood_50.jpg', href: 'flood_light_50W.html'},
+			{pid:'outdoorlighting', cid:'vi_series', img: 'flood_light/flood_100.jpg', href: 'flood_light_100W.html'},
 
 			{pid:'signlighting', cid:'wifi300', img: 'controller/wifi_300.jpg', href: 'wifi_300.html'},
 			{pid:'signlighting', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'diy_wifi.html'},
@@ -64,22 +64,22 @@
 			{pid:'signlighting', cid:'200W', img: 'power/200W.jpg', href: 'power200W.html'},
 			{pid:'signlighting', cid:'300W', img: 'power/300W.jpg', href: 'power300W.html'},*/
 
-			{pid:'outdoorlighting', cid:'40W', img: 'shoebox/shoebox_40.jpg', href: 'shoebox40W.html'},
-			{pid:'outdoorlighting', cid:'80W', img: 'shoebox/shoebox_80.jpg', href: 'shoebox80W.html'},
-			{pid:'outdoorlighting', cid:'120W', img: 'shoebox/shoebox_120.jpg', href: 'shoebox120W.html'},
-			{pid:'outdoorlighting', cid:'160W', img: 'shoebox/shoebox_160.jpg', href: 'shoebox160W.html'},
-			{pid:'outdoorlighting', cid:'200W', img: 'shoebox/shoebox_200.jpg', href: 'shoebox200W.html'},
+			{pid:'outdoorlighting', cid:'40W', img: 'shoebox/shoebox_40.jpg', href: 'shoebox_light_40W.html'},
+			{pid:'outdoorlighting', cid:'80W', img: 'shoebox/shoebox_80.jpg', href: 'shoebox_light_80W.html'},
+			{pid:'outdoorlighting', cid:'120W', img: 'shoebox/shoebox_120.jpg', href: 'shoebox_light_120W.html'},
+			{pid:'outdoorlighting', cid:'160W', img: 'shoebox/shoebox_160.jpg', href: 'shoebox_light_160W.html'},
+			{pid:'outdoorlighting', cid:'200W', img: 'shoebox/shoebox_200.jpg', href: 'shoebox_light_200W.html'},
 
-			{pid:'outdoorlighting', cid:'105W', img: 'retrofit/retrofit_105.jpg', href: 'retrofit105W.html'},
-			{pid:'outdoorlighting', cid:'120W', img: 'retrofit/retrofit_120.jpg', href: 'retrofit120W.html'},
-			{pid:'outdoorlighting', cid:'150W', img: 'retrofit/retrofit_150.jpg', href: 'retrofit150W.html'},
-			{pid:'outdoorlighting', cid:'200W', img: 'retrofit/retrofit_200.jpg', href: 'retrofit200W.html'},
+			{pid:'outdoorlighting', cid:'105W', img: 'retrofit/retrofit_105.jpg', href: 'retrofit_kit_105W.html'},
+			{pid:'outdoorlighting', cid:'120W', img: 'retrofit/retrofit_120.jpg', href: 'retrofit_kit_120W.html'},
+			{pid:'outdoorlighting', cid:'150W', img: 'retrofit/retrofit_150.jpg', href: 'retrofit_kit_150W.html'},
+			{pid:'outdoorlighting', cid:'200W', img: 'retrofit/retrofit_200.jpg', href: 'retrofit_kit_200W.html'},
 
 
 
-			{pid:'commerciallighting', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube4ft.html'},
-			{pid:'commerciallighting', cid:'6ft', img: 'tube/tube_6ft.jpg', href: 'tube6ft.html'},
-			{pid:'commerciallighting', cid:'8ft', img: 'tube/tube_8ft.jpg', href: 'tube8ft.html'},
+			{pid:'commerciallighting', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube_4ft.html'},
+			{pid:'commerciallighting', cid:'6ft', img: 'tube/tube_6ft.jpg', href: 'tube_6ft.html'},
+			{pid:'commerciallighting', cid:'8ft', img: 'tube/tube_8ft.jpg', href: 'tube_8ft.html'},
 
 
             /*calss2*/
@@ -96,7 +96,7 @@
 			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_180.html'},
 			{pid:'letter', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'wow_series.html'},
 			/*{pid:'letter', cid:'wow', img: 'channel_letter/wow_red.jpg', href: 'WOW-Red.html'},*/
-			{pid:'letter', cid:'micro', img: 'channel_letter/micro.jpg', href: 'g2g_micro.html'},
+			{pid:'letter', cid:'micro', img: 'channel_letter/micro.jpg', href: 'micro.html'},
 
 			{pid:'sign', cid:'side', img: 'sign_box/side.jpg', href: 'side.html'},
 			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sf.html'},
@@ -117,21 +117,21 @@
 			{pid:'neon', cid:'neon', img: 'neon/neon.jpg', href: 'neon.html'},
 
 
-			{pid:'wall', cid:'oona-slim', img: 'wall_washer/oona_slim.jpg', href: 'oona_slim_wall_washer.html'},
-			{pid:'wall', cid:'i_series', img: 'wall_washer/lww_1.jpg', href: 'Wall-Washer-I-Series.html'},
-			{pid:'wall', cid:'ii_series', img: 'wall_washer/lww_2.jpg', href: 'Wall-Washer-II-Series.html'},
-			{pid:'wall', cid:'v_series', img: 'wall_washer/lww_5.jpg', href: 'Wall-Washer-V-Series.html'},
-			{pid:'wall', cid:'vi_series', img: 'wall_washer/lww_6.jpg', href: 'Wall-Washer-Ⅵ-Series.html'},
-			{pid:'wall', cid:'vii_series', img: 'wall_washer/lww_7.jpg', href: 'Wall-Washer-Ⅶ-Series.html'},
-			{pid:'wall', cid:'viii_series', img: 'wall_washer/lww_8.jpg', href: 'Wall-Washer-Ⅷ-Series-LWW-8B-108P.html'},
+			{pid:'wall', cid:'oona-slim', img: 'wall_washer/oona_slim.jpg', href: 'oona_slim.html'},
+			{pid:'wall', cid:'i_series', img: 'wall_washer/lww_1.jpg', href: 'wall_washer_i_series.html'},
+			{pid:'wall', cid:'ii_series', img: 'wall_washer/lww_2.jpg', href: 'wall_washer_ii_series.html'},
+			{pid:'wall', cid:'v_series', img: 'wall_washer/lww_5.jpg', href: 'wall_washer_v_series.html'},
+			{pid:'wall', cid:'vi_series', img: 'wall_washer/lww_6.jpg', href: 'wall_washer_vi_series.html'},
+			{pid:'wall', cid:'vii_series', img: 'wall_washer/lww_7.jpg', href: 'wall_washer_vii_series.html'},
+			{pid:'wall', cid:'viii_series', img: 'wall_washer/lww_8.jpg', href: 'wall_washer_viii_series.html'},
 
 
 
-			{pid:'flood', cid:'i_series', img: 'flood_light/flood_10.jpg', href: 'Flood-Light-10W.html'},
-			{pid:'flood', cid:'ii_series', img: 'flood_light/flood_20.jpg', href: 'Flood-Light-20W.html'},
-			{pid:'flood', cid:'iii_series', img: 'flood_light/flood_30.jpg', href: 'Flood-Light-30W.html'},
-			{pid:'flood', cid:'v_series', img: 'flood_light/flood_50.jpg', href: 'Flood-Light-50W.html'},
-			{pid:'flood', cid:'vi_series', img: 'flood_light/flood_100.jpg', href: 'Flood-Light-100W.html'},
+			{pid:'flood', cid:'i_series', img: 'flood_light/flood_10.jpg', href: 'flood_light_10W.html'},
+			{pid:'flood', cid:'ii_series', img: 'flood_light/flood_20.jpg', href: 'flood_light_20W.html'},
+			{pid:'flood', cid:'iii_series', img: 'flood_light/flood_30.jpg', href: 'flood_light_30W.html'},
+			{pid:'flood', cid:'v_series', img: 'flood_light/flood_50.jpg', href: 'flood_light_50W.html'},
+			{pid:'flood', cid:'vi_series', img: 'flood_light/flood_100.jpg', href: 'flood_light_100W.html'},
 
 			{pid:'controller', cid:'wifi300', img: 'controller/wifi_300.jpg', href: 'wifi_300.html'},
 			{pid:'controller', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'diy_wifi.html'},
@@ -139,20 +139,20 @@
 			{pid:'controller', cid:'knod', img: 'controller/knob.jpg', href: 'knob_dimmer.html'},
 
 			
-			{pid:'shoebox', cid:'40W', img: 'shoebox/shoebox_40.jpg', href: 'shoebox40W.html'},
-			{pid:'shoebox', cid:'80W', img: 'shoebox/shoebox_80.jpg', href: 'shoebox80W.html'},
-			{pid:'shoebox', cid:'120W', img: 'shoebox/shoebox_120.jpg', href: 'shoebox120W.html'},
-			{pid:'shoebox', cid:'160W', img: 'shoebox/shoebox_160.jpg', href: 'shoebox160W.html'},
-			{pid:'shoebox', cid:'200W', img: 'shoebox/shoebox_200.jpg', href: 'shoebox200W.html'},
+			{pid:'shoebox', cid:'40W', img: 'shoebox/shoebox_40.jpg', href: 'shoebox_light_40W.html'},
+			{pid:'shoebox', cid:'80W', img: 'shoebox/shoebox_80.jpg', href: 'shoebox_light_80W.html'},
+			{pid:'shoebox', cid:'120W', img: 'shoebox/shoebox_120.jpg', href: 'shoebox_light_120W.html'},
+			{pid:'shoebox', cid:'160W', img: 'shoebox/shoebox_160.jpg', href: 'shoebox_light_160W.html'},
+			{pid:'shoebox', cid:'200W', img: 'shoebox/shoebox_200.jpg', href: 'shoebox_light_200W.html'},
 
-			{pid:'retrofit', cid:'105W', img: 'retrofit/retrofit_105.jpg', href: 'retrofit105W.html'},
-			{pid:'retrofit', cid:'120W', img: 'retrofit/retrofit_120.jpg', href: 'retrofit120W.html'},
-			{pid:'retrofit', cid:'150W', img: 'retrofit/retrofit_150.jpg', href: 'retrofit150W.html'},
-			{pid:'retrofit', cid:'200W', img: 'retrofit/retrofit_200.jpg', href: 'retrofit200W.html'},
+			{pid:'retrofit', cid:'105W', img: 'retrofit/retrofit_105.jpg', href: 'retrofit_kit_105W.html'},
+			{pid:'retrofit', cid:'120W', img: 'retrofit/retrofit_120.jpg', href: 'retrofit_kit_120W.html'},
+			{pid:'retrofit', cid:'150W', img: 'retrofit/retrofit_150.jpg', href: 'retrofit_kit_150W.html'},
+			{pid:'retrofit', cid:'200W', img: 'retrofit/retrofit_200.jpg', href: 'retrofit_kit_200W.html'},
 
-			{pid:'tube', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube4ft.html'},
-			{pid:'tube', cid:'6ft', img: 'tube/tube_6ft.jpg', href: 'tube6ft.html'},
-			{pid:'tube', cid:'8ft', img: 'tube/tube_8ft.jpg', href: 'tube8ft.html'},
+			{pid:'tube', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube_4ft.html'},
+			{pid:'tube', cid:'6ft', img: 'tube/tube_6ft.jpg', href: 'tube_6ft.html'},
+			{pid:'tube', cid:'8ft', img: 'tube/tube_8ft.jpg', href: 'tube_8ft.html'},
 
 
 
