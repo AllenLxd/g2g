@@ -530,17 +530,16 @@
 
 /* Section-links*/
         .section-padding{
-        	   padding: 0px;
+        	   padding: 0 20px 0 0;
         	   margin: 0px;
         	   width: 100%;
+        	   background:#151c26;
         }
 		.zzsc-content {
 			padding: 60px 0;
 			min-height: 300px;
 		}
-        .bgcolor-3{
-           background: url('../images/flipster-bg.jpg')  no-repeat;	
-        }
+       
 		.Float-Left {
 		  float: left;
 		  margin-right: 20px;
@@ -550,11 +549,10 @@
 		  margin-left: 20px;
 		}
 		.Button {
+		  padding:0px 40px;
 		  display: inline-block;
-		  margin: 0;	
-		  box-shadow: 3px 1px 20px #888888;
-		  border:0.5px solid #f5f5f5;
-		  color: #939393;
+		  margin: 0;			 
+		  color:#ffffff;
 		  text-shadow: none;
 		  vertical-align: middle;
 		  cursor: pointer;		  
@@ -564,46 +562,125 @@
 		  -o-transition: color 300ms ease, background-color 300ms ease;
 		  transition: color 300ms ease, background-color 300ms ease;
 		}
-		.Button:hover,
-		.Button:focus {
-		  color: #939393;		 
-		}
+
 		.Button.Small {
 		  padding: 5px 10px;
 		  font-size: small;
 		}
-		.Button.Block {
-		  width: 300px;
-		  height: 400px;
+		 .Block {
+		  width: 270px;
+		  height: 330px;  
+		}
+		.warranty{
+			background:url('../images/warranty_bg.png') no-repeat;
+		}
+		.warranty a{
+			color:#14a1d9;
+		}
+		.warranty a:hover{
+			color:#14a1d9;
+		}
+		.Button h2{
+			margin-top:145px;
+			margin-bottom:17px;		
+		}
+		.Button p{
+			font-size:10px;	
+			line-height:1.2;
+		}
+       .Button a{
 		  background:#ffffff;
+		  width: 65px;
+		  height: 30px;
+		  margin: 0 auto;
+	   }
+	    .instruction{
+			background:url('../images/instruction_bg.png') no-repeat;
 		}
-		.Button h1 {
-		  font-family:gotthard;
-		  font-size: 18px;
-		  line-height: 1.25em;
-		  color: #FFF;
-		  text-align:center;
-		  line-height:120px;
-		  padding-top: 15px;
+		.instruction h2{
+			margin-top:130px;
+			font-size:25px;
+			margin-bottom:13px;
 		}
-		.title-content{
-			width: 300px;
-			height:120px;
-			margin-top: -20px;
+		.instruction a{
+			color:#678dd4;
+		}
+		.instruction a:hover{
+			color:#678dd4;
+		}
+		.sample{
+			background:url('../images/sample_bg.png') no-repeat;
+		}
+		.sample h2{
+			margin-top:130px;
+			font-size:25px;
+			margin-bottom:13px;
+		}
+		.sample a{
+			color:#e3ae57;
+			background:#ffffff;
+		}
+		.sample a:hover{
+			color:#e3ae57;
+		}
+		.catalog{
+			background:url('../images/catalog_bg.png') no-repeat;
+		}
+		.catalog h2{
+			margin-top:145px;
+			font-size:25px;
+			margin-bottom:25px;
+		}
+		.catalog a{
+			color:#5cb85c;
+		}
+		.catalog a:hover{
+			color:#5cb85c;
+		}
+		.video{
+			background:url('../images/video_bg.png') no-repeat;
+		}
+		.video h2{
+			margin-top:145px;
+			font-size:25px;
+			margin-bottom:25px;
+		}
+		.video a{
+			color:#6f47be;
+		}
+		.video a:hover{
+			color:#6f47be;
+		}
+		.tech{
+			background:url('../images/tech_bg.png') no-repeat;
+		}
+		.tech h2{
+			margin-top:135px;
+			font-size:25px;
+			margin-bottom:8px;
+		}
+		.tech a{
+			color:#e9724c;
+		}
+		.tech a:hover{
+			color:#e9724c;
+		}
+		.claim{
+			background:url('../images/claim_bg.png') no-repeat;
+		}
+		.claim h2{
+			margin-top:135px;
+			font-size:25px;
+			margin-bottom:10px;
+		}
+		.claim a{
+			color:#01c5b7;
+		}
+		.claim a:hover{
+			color:#01c5b7;
 		}
 		
-		.warranty-title{
-			background: url('../images/warranty-title.jpg')  no-repeat;			
-		}
-		.video-title{			
-			background: url('../images/video-title.jpg')  no-repeat;			
-		}
-		.sample-title{			
-			background: url('../images/sample-title.jpg')  no-repeat;			
-		}
-		.claim-title{			
-			background: url('../images/claim-title.jpg')  no-repeat;			
-		}
+		
 		.btn-sample{
 			width:65px;
 			height:30px;
@@ -624,18 +701,13 @@
 		    padding: 10px 15px;
 		    border: 1px solid#EEE;
         }
-		.catalog-title{
-			background: url('../images/catalog-title.jpg')  no-repeat;			
-		}
-		.tech-title{
-			background: url('../images/tech-title.jpg')  no-repeat;			
-		}
-		.installation-title{
-			background: url('../images/installation-title.jpg')  no-repeat;			
+		.link_section{
+			margin-top:10px;
 		}
 		.flipster-content{
-			padding:10px 10px;
+			padding:5px 5px 5px 5px;
 			vertical-align: middle;
+			font-size:10px;
 		}
 		.flipster-logo{
 			padding: 30px 20px 10px 20px;		
@@ -684,15 +756,39 @@
         /* News*/
        .item-content{
        	width: 100%;      	
-       	padding:0 0 0 15px;
-       	background: -webkit-linear-gradient(#ffffff,#f8f8f8); /* Safari 5.1 - 6.0 */
-		background: -o-linear-gradient(#ffffff, #f8f8f8); /* Opera 11.1 - 12.0 */
-		background: -moz-linear-gradient(#ffffff, #f8f8f8); /* Firefox 3.6 - 15 */
-		background: linear-gradient(#ffffff, #f8f8f8);
        	
        }
+       .item-content h4{
+       	margin-top:20px;
+       	font-size:15px;
+       	color:#60b562;
+       	
+       }
+       .news-padding{
+       	background:#5c6069;
+       	height: 450px;
+       	padding-top:20px;
+       }
        .news-height{
-       	height:415px;
+       	height:330px;
+       	margin-top:30px;
+       }
+       .news-nav hr{
+       	width: 100px;
+       	float: left;
+       }
+       .news-nav{
+       	width: 100%;
+       	height:40px;
+       	margin:20px 0px;
+       }
+      
+       
+       .news-nav div.news-logo{
+       	width: 80px;
+       	height:40px;
+       	float: left;
+       	background:url('../images/news-logo.png') no-repeat 0px 5px;
        }
        .news-ol li{
        	border:1px solid #5cb85c;
@@ -710,19 +806,19 @@
        	padding:0px;
       
        }
-       .navbar-news{
-       	margin-top:60px;
-        margin-bottom:30px;
-        border-style:solid; 
-        border-width:0.5px 0;
-        border-color:#e7e7e7;       
-       }
+       
        .navbar-header .news-brand{
        	    min-height: 63px;
        	    padding: 15px 0;
        }
        .news-content{
-      	    padding: 30px 10px 0 0;
+      	    padding: 20px 10px 0 0;
+      	   
+       }
+       .news-content p{
+      	    color:#ffffff;
+      	    font-size:12px;
+      	   
        }
        .news-date{
        	color:#f4690a;
@@ -731,15 +827,19 @@
        }
        /* product*/
        .row-product{
-       	padding: 100px 20px;
-       	background:#dcdcf8;
+       	padding: 50px 20px;
+       	background:#e6e6e6;
        }
        .product-classification{
-       	padding-bottom:20px;
+       	padding: 20px;
+       	margin-bottom:0px;
        	border:0px;
        	box-shadow: 1px 1px 5px #888888;
-       	
        }
+       .product-classification h4{
+       	padding: 0px 0px 15px 0px;
+       }
+       
        .caption{
        	padding-bottom:20px;
        }
@@ -747,8 +847,13 @@
        	padding-top:10px;
        }
        .caption p{
-       	padding: 10px 0px;
+       	padding: 5px 0px;
+       	font-size:12px;
        }
+       .thumbnail .caption {
+		    padding: 0px;
+		    color: #333;
+		}
        .classification-padding{
        	padding:0px 10px;
        	
@@ -758,13 +863,19 @@
        }
        
        /* contact*/
+      .contact_padding{
+      	padding:0px;
+      }
+      .contact{
+      	border-left: 0.5px solid #9f9f9f;
+      	padding-left: 20px;
+      }
        .home-contact{
-       	 margin-top: 50px;
-   		 margin-bottom: 30px;
+       	
    		 z-index: 2;
 		 color: #040404;
-		 background-color: #f0f0f0;
-		 padding: 20px 15px;
+		 margin-bottom:30px;
+		
        }
        .home-contact h4{
        	 font-size:23px;
@@ -795,35 +906,35 @@
       	color:#ffffff;
       }
       .labor-nav{
-      	height:80px;
-      	padding:15px 0px;
+      	height:50px;
+      	padding:7px 0px;
       }
       .labor-title{
       	display:inline-block;
-      	font-size: 30px;
-      	line-height:50px;
+      	font-size: 25px;
+      	line-height:25px;
       	width:200px;
-      	height:50px;
+      	height:25px;
       }
       .login{
       	display: inline-block;
         margin-left:30px; 
-        width:120px;
-        padding:7px 10px;
-        margin-bottom:15px;
+        width:110px;
+        padding:3px 10px;
+        margin-bottom:10px;
         vertical-align: middle;
            
       }
       .login a{
       	background:#72b70f;  
       	padding: 0px 10px; 
-        font-size:16px;
-        line-height:30px;
+        font-size:14px;
+        line-height:20px;
         padding:3px 15px;
         display: block;
         border:1px solid #72b70f;
         color:#ffffff;
-        border-radius:4px;
+        border-radius:3px;
       }
       .login a:hover,.login a:active,.login a:visited {
       	color:#ffffff;
@@ -1245,7 +1356,7 @@
 		position:absolute;
 		width: 35%;
 		height: 20%;
-		top:190px;
+		top:200px;
 		left:85px;
 	}
 	.detail{
@@ -1280,7 +1391,7 @@
 		padding-top: 10px;	
 	}
 	.detail-video{
-		padding:40px 20px;
+		padding:40px 20px 0px 20px;
 	}
 	.detail-files{
 		padding:20px 10px;
@@ -1319,6 +1430,140 @@
 		height:30px;		
 		background: url('../images/arrow.jpg')  no-repeat;
 	
+	}
+	.colors{
+		width:100%;
+		height:70px;
+		background:#d5d5d5;
+		padding-top: 13px;
+	}
+	.colors div.color-span{
+		width: 110px;
+		float:left;
+		padding: 4px;
+		height:100%;
+	}
+	.colors div.color-span .color-icon{	
+		height:20px;
+		width:20px;
+		margin: 0 auto;
+		margin-bottom: 5px;
+	}
+	.colors div.color-span .red-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/red.png')  no-repeat;		
+	}
+	.colors div.color-span .white-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/white.png')  no-repeat;		
+	}
+	.colors div.color-span .green-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/green.png')  no-repeat;		
+	}
+	.colors div.color-span .yellow-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/yellow.png')  no-repeat;		
+	}
+	.colors div.color-span .blue-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/blue.png')  no-repeat;		
+	}
+	.colors div.color-span .purple-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/pinkish_purple.png')  no-repeat;		
+	}
+	.colors div.color-span .warm-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/warm_white.png')  no-repeat;		
+	}
+	.colors div.color-span .orange-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/orange.png')  no-repeat;		
+	}
+	.colors div.color-span .ice-icon{
+		background: url('../images/details/sign_lighting/neon/aurora_flex_mini/ice_blue.png')  no-repeat;		
+	}
+	.accessories{
+		position: relative;
+	}
+	.accessories h3{
+		color:#c99a6e;
+	}
+	.accessories{
+		position: relative;
+		width:100%;
+		height:1500px;
+	}
+	.flex_mini_accessories{		
+		height:900px;
+	}
+	.endcap{
+		position:absolute;
+		width: 30%;
+		top: 20px;
+		left: 30px;
+	}
+	.endcap_wires{
+		position:absolute;
+		width:38%;
+		top: 200px;
+		right:30px;
+	}
+	
+	.fast_glue{
+		position:absolute;
+		width: 80%;
+		top: 450px;
+		left: 10px;
+	}
+	.fast_glue div{
+		position:absolute;
+		width: 40%;
+		top: 20px;
+		left: 130px;
+	}
+	.mount{
+		position:absolute;
+		width: 35%;
+		top: 600px;
+		right: 50px;
+	}
+	
+	.power_cable{
+		position:absolute;
+		width:38%;
+		top: 200px;
+		right:30px;
+	}
+	.power_cable div{
+		position:absolute;
+		width:70%;
+		top: -20px;
+		right:20px;
+	}
+	
+	.power_pin{
+		position:absolute;
+		width: 60%;
+		top: 400px;
+		left: 25px;
+	}
+	.joining_pin{
+		position:absolute;
+		width: 40%;
+		top: 500px;
+		left: 350px;
+	}
+	.pvc_glue{
+		position:absolute;
+		width: 30%;
+		top: 600px;
+		right: 100px;
+	}
+	.heat_shrink{
+		position:absolute;
+		width: 30%;
+		top: 850px;
+		left: 25px;
+	}
+	.mount_clip{
+		position:absolute;
+		width: 40%;
+		top: 1000px;
+		right: 25px;
 	}
 	/**videos开始**/
     .installation-video {

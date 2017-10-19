@@ -24,18 +24,20 @@
 			
 
 			{pid:'signlighting', cid:'side', img: 'sign_box/side.jpg', href: 'side.html'},
+			{pid:'signlighting', cid:'side', img: 'sign_box/slim_side_bar.jpg', href: 'slim_side.html'},
 			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sf.html'},
-			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sd.html'},
+			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_df.html'},
 			/*{pid:'signlighting', cid:'sparx', img: 'sign_box/sparx.jpg', href: 'SparX-Lighting-System.html'},*/
 			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'trident_df.html'},
 			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'trident_sf.html'},
-			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_stick_df.html'},
-			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/stick_sf.jpg', href: 'trident_stick_sf.html'},
+			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_df_stick.html'},
+			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/stick_sf.jpg', href: 'trident_sf_stick.html'},
 			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/trident_premier_stick.jpg', href: 'trident_premier_stick.html'},
 			{pid:'signlighting', cid:'arraybracket', img: 'accessories/arraybracket.jpg', href: 'arraybracket.html'},
 			{pid:'signlighting', cid:'tridentbracket', img: 'accessories/tridentbracket.jpg', href: 'tridentbracket.html'},
 			{pid:'signlighting', cid:'hosocket', img: 'accessories/hosocket.jpg', href: 'Ho_socket.html'},
-			{pid:'signlighting', cid:'neon', img: 'neon/neon.jpg', href: 'neon.html'},
+			{pid:'signlighting', cid:'neon', img: 'neon/aurora_flex_mini.jpg', href: 'aurora_flex_mini.html'},
+			{pid:'signlighting', cid:'neon', img: 'neon/aurora_flex.jpg', href: 'aurora_flex.html'},
 			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_sf.jpg', href: 'anpro_180_stick_sf.html'},
 			{pid:'signlighting', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_df.jpg', href: 'anpro_180_stick_df.html'},
 
@@ -99,13 +101,14 @@
 			{pid:'letter', cid:'micro', img: 'channel_letter/micro.jpg', href: 'micro.html'},
 
 			{pid:'sign', cid:'side', img: 'sign_box/side.jpg', href: 'side.html'},
+			{pid:'sign', cid:'side', img: 'sign_box/slim_side_bar.jpg', href: 'slim_side.html'},
 			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sf.html'},
 			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_df.html'},
 			/*{pid:'sign', cid:'sparx', img: 'sign_box/sparx.jpg', href: 'SparX-Lighting-System.html'},*/
 			{pid:'sign', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'trident_df.html'},
 			{pid:'sign', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'trident_sf.html'},
-			{pid:'sign', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_stick_df.html'},
-			{pid:'sign', cid:'trident-stick', img: 'sign_box/stick_sf.jpg', href: 'trident_stick_sf.html'},
+			{pid:'sign', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_df_stick.html'},
+			{pid:'sign', cid:'trident-stick', img: 'sign_box/stick_sf.jpg', href: 'trident_sf_stick.html'},
 			{pid:'sign', cid:'trident-stick', img: 'sign_box/trident_premier_stick.jpg', href: 'trident_premier_stick.html'},
 			{pid:'sign', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_sf.jpg', href: 'anpro_180_stick_sf.html'},
 			{pid:'sign', cid:'anpro-stick', img: 'sign_box/anpro_180_stick_df.jpg', href: 'anpro_180_stick_df.html'},
@@ -114,7 +117,9 @@
 			{pid:'accessories', cid:'tridentbracket', img: 'accessories/tridentbracket.jpg', href: 'tridentbracket.html'},
 			{pid:'accessories', cid:'hosocket', img: 'accessories/hosocket.jpg', href: 'Ho_socket.html'},
 			
-			{pid:'neon', cid:'neon', img: 'neon/neon.jpg', href: 'neon.html'},
+			{pid:'neon', cid:'neon', img: 'neon/aurora_flex_mini.jpg', href: 'aurora_flex_mini.html'},
+			{pid:'neon', cid:'neon', img: 'neon/aurora_flex.jpg', href: 'aurora_flex.html'},
+			
 
 
 			{pid:'wall', cid:'oona-slim', img: 'wall_washer/oona_slim.jpg', href: 'oona_slim.html'},

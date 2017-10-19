@@ -115,29 +115,24 @@
 .flipster .flipto-prev,
 .flipster .flipto-next {
   position: absolute;
-  top: 50%;
+  top: 40%;
   z-index: 999;
   display: block;
-  padding: 10px;
-  margin-top: 25px;
-  background-color: #da0d25;
-  color: #FFF;
-  border: solid 2px #da0d25;
+  padding: 15px;
+  margin-top: 25px; 
   -ms-transition: background-color 300ms ease;
   -webkit-transition: background-color 300ms ease;
   -moz-transition: background-color 300ms ease;
   -o-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
 }
-.flipster .flipto-prev:hover,
-.flipster .flipto-next:hover {
-  background-color: #FFF;
-  color: #da0d25;
-}
+
 .flipster .flipto-prev {
-  left: 0;
+  left: 30px;
+  background: url('../images/pre.png')  no-repeat;
 }
 .flipster .flipto-next {
-  right: 0;
+  right: 30px;
+  background: url('../images/next.png')  no-repeat;
 }
 /* @end */
