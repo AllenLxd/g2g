@@ -193,10 +193,8 @@
 
 	.st-navbar ul li a{
 		text-transform: uppercase;
-		font-weight: 600;
 		padding: 0;
 		margin: 14px;
-	    font-family: 'avant'; 
         font-size: 15px;
 		color: #717171 ;
 		letter-spacing:0.02px
@@ -642,7 +640,7 @@
 			background:url('../images/video_bg.png') no-repeat;
 		}
 		.video h2{
-			margin-top:165px;
+			margin-top:145px;
 			font-size:25px;
 			margin-bottom:25px;
 		}
@@ -656,7 +654,7 @@
 			background:url('../images/tech_bg.png') no-repeat;
 		}
 		.tech h2{
-			margin-top:135px;
+			margin-top:165px;
 			font-size:25px;
 			margin-bottom:8px;
 		}
@@ -891,11 +889,11 @@
        	 font-size:14px;
        }
        .address{
-       	font-size: 7px;
+       	font-size: 11px;
        }
        .contact p.content{
        	text-indent: 22px;
-       	font-size: 7px;
+       	font-size: 11px;
        	margin-top: 0px;
        }
        .contact-content{
