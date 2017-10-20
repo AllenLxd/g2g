@@ -1,6 +1,6 @@
 @font-face { 
   font-family: 'avant'; 
-  src: url('../fonts/Avant Garde Medium BT.ttf'); 
+  src: url('../fonts/avant_garde_medium_bt.ttf'); 
   src: url('../fonts/avant_garde_medium_bt.eot'); 
   src: url('../fonts/avant_garde_medium_bt.svg'); 
   font-family: 'gotthard'; 
@@ -1025,16 +1025,13 @@
 	position:absolute;
 	width:600px;
 	height:240px;
-	bottom:50px;
+	bottom:0px;
 	right:40px;
 	color:#ffffff;
 	-webkit-right: 18%;
     -moz-right: 18%;
 }
-.aboutUsContent p{
-	line-height:24px;
-	letter-spacing:2px;
-}
+
 
 /*about us结束*/
 	 
