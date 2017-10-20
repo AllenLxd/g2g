@@ -836,6 +836,10 @@
        	border:0px;
        	box-shadow: 1px 1px 5px #888888;
        }
+       .product-classification img{
+       	width:230px;
+       	height:150px;
+       }
        .product-classification h4{
        	padding: 0px 0px 15px 0px;
        }
@@ -856,6 +860,7 @@
 		}
        .classification-padding{
        	padding:0px 10px;
+       	height:300px;
        	
        }
        .product-button{
