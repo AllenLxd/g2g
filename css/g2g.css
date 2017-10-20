@@ -1,22 +1,22 @@
 @font-face { 
-  font-family: avant; 
+  font-family: 'avant'; 
   src: url('../fonts/Avant Garde Medium BT.ttf'); 
   src: url('../fonts/avant_garde_medium_bt.eot'); 
   src: url('../fonts/avant_garde_medium_bt.svg'); 
-  font-family: gotthard; 
+  font-family: 'gotthard'; 
   src: url('../fonts/Gotthard.ttf'); 
   src: url('../fonts/gotthard.eot'); 
   src: url('../fonts/gotthard.svg'); 
    src: url('../fonts/gotthard.woff'); 
-  font-family: Romans; 
+  font-family: 'Romans'; 
   src: url('../fonts/HelveticaInserat-Roman-SemiBold.ttf') format('embedded-opentype'); 
-  font-family: Sans; 
+  font-family: 'Sans'; 
   src: url('../fonts/OpenSans-Regular.ttf');
-  font-family: cento; 
+  font-family: 'cento'; 
   src: url('../fonts/Quattrocento-Bold.ttf');
-  font-family: centor; 
+  font-family: 'centor'; 
   src: url('../fonts/Quattrocento-Regular.ttf');
-  font-family: roboto; 
+  font-family: 'roboto'; 
   src: url('../fonts/Roboto-Regular.ttf');
 }
 
