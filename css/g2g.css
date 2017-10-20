@@ -199,6 +199,7 @@
 	    font-family: 'avant'; 
         font-size: 15px;
 		color: #717171 ;
+		letter-spacing:0.02px
 	}
 
 	.st-navbar ul li a:hover,
