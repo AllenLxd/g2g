@@ -45,10 +45,10 @@
 .flip-prev {
   cursor: pointer;
 }
-.flip-item img {
+/*.flip-item img {
   display: block;
   width: 100%;
-}
+}*/
 /* @end */
 /* @group Coverflow Style */
 .flipster-coverflow .flip-items {

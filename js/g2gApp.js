@@ -61,6 +61,10 @@
 			{pid:'signlighting', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'diy_wifi.html'},
 			{pid:'signlighting', cid:'rf3keys', img: 'controller/rf_3keys.jpg', href: 'rf_dimmer.html'},
 			{pid:'signlighting', cid:'knod', img: 'controller/knob.jpg', href: 'knob_dimmer.html'},
+			{pid:'signlighting', cid:'talent_i', img: 'controller/talent_i.jpg', href: 'talent_i.html'},
+			{pid:'signlighting', cid:'talent_ii', img: 'controller/talent_ii.jpg', href: 'talent_ii.html'},
+			{pid:'signlighting', cid:'talent_iii', img: 'controller/talent_iii.jpg', href: 'talent_iii.html'},
+,
 
 		   /*{pid:'signlighting', cid:'100W', img: 'power/100W.jpg', href: 'power100W.html'},
 			{pid:'signlighting', cid:'200W', img: 'power/200W.jpg', href: 'power200W.html'},
@@ -79,9 +83,8 @@
 
 
 
-			{pid:'commerciallighting', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube_4ft.html'},
-			{pid:'commerciallighting', cid:'6ft', img: 'tube/tube_6ft.jpg', href: 'tube_6ft.html'},
-			{pid:'commerciallighting', cid:'8ft', img: 'tube/tube_8ft.jpg', href: 'tube_8ft.html'},
+			{pid:'commerciallighting', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube.html'},
+
 
 
             /*calss2*/
@@ -142,6 +145,10 @@
 			{pid:'controller', cid:'diywifi', img: 'controller/diy_wifi.jpg', href: 'diy_wifi.html'},
 			{pid:'controller', cid:'rf3keys', img: 'controller/rf_3keys.jpg', href: 'rf_dimmer.html'},
 			{pid:'controller', cid:'knod', img: 'controller/knob.jpg', href: 'knob_dimmer.html'},
+			{pid:'controller', cid:'talent_i', img: 'controller/talent_i.jpg', href: 'talent_i.html'},
+			{pid:'controller', cid:'talent_ii', img: 'controller/talent_ii.jpg', href: 'talent_ii.html'},
+			{pid:'controller', cid:'talent_iii', img: 'controller/talent_iii.jpg', href: 'talent_iii.html'},
+			
 
 			
 			{pid:'shoebox', cid:'40W', img: 'shoebox/shoebox_40.jpg', href: 'shoebox_light_40W.html'},
@@ -155,9 +162,9 @@
 			{pid:'retrofit', cid:'150W', img: 'retrofit/retrofit_150.jpg', href: 'retrofit_kit_150W.html'},
 			{pid:'retrofit', cid:'200W', img: 'retrofit/retrofit_200.jpg', href: 'retrofit_kit_200W.html'},
 
-			{pid:'tube', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube_4ft.html'},
-			{pid:'tube', cid:'6ft', img: 'tube/tube_6ft.jpg', href: 'tube_6ft.html'},
-			{pid:'tube', cid:'8ft', img: 'tube/tube_8ft.jpg', href: 'tube_8ft.html'},
+			{pid:'tube', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube.html'},
+			
+		
 
 
 
