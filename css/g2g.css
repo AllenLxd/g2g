@@ -365,29 +365,40 @@
 		font-family:'impact';
 	}
 	
-	.banner-flex{
+	.banner-flex {
 		left: 25%;
-		top: 23%;
+		top: 30%;
+		color:#ffffff;	
+	}
+	.banner-flex .flex-left{
+		width:300px;
+		height:300px;
+		float:left;
+		padding-right: 10px;
+	}
+	.banner-flex .flex-left h3{
+		color:#1d3ae0;
+		font-size:45px;
+		font-family:'impact';
+		margin-bottom: 10px;
+	}
+	.banner-flex .flex-left a{
+		background:#1d3ae0;
+	}
+	.banner-flex .flex-left p{
+		color:#000000;
+	}
+	.banner-flex .flex-right{
+		width:300px;
+		height:300px;
+		float:left;
+		padding-left: 10px;
+	}
+	.banner-flex .flex-right h3{
 		color:#ffffff;
-		
-	}
-	.banner-flex h1{
-		font-size:42px;
-		margin-bottom:12px;
-		letter-spacing: 10px;
-	}
-	.banner-flex h2{
-		font-size:55px;
-		margin-bottom:5px;
-		letter-spacing: 10px;
-	}
-	.banner-flex h3{
-		font-size:50px;
-		letter-spacing: 14px;
-	}
-	.banner-flex h3{
-		font-size:50px;
-		letter-spacing: 14px;
+		font-size:45px;
+		font-family:'impact';
+		margin-bottom: 10px;
 	}
 	
 	.banner-premier{
@@ -401,6 +412,35 @@
 		font-size:45px; 	
 	}
 
+	.banner-anpro{
+			left: 135px;
+			top: 223px;
+			color:#ffffff;
+			width:400px;
+			margin: 0px; 	
+	}
+	.banner-anpro h3{
+			letter-spacing: 4px;
+	}
+	.banner-anpro h2{
+		font-size:45px; 
+		color:#000000;	
+		font-family:'impact';
+		letter-spacing: 4px;
+	}
+	.banner-anpro h4{
+		font-size:35px; 
+		color:#ffffff;	
+		font-family:'impact';
+		letter-spacing: 4px;
+	}
+	.banner-anpro a{
+		background:#e60014;
+		width: 130px;
+	}
+	.banner-anpro a:hover{
+		background:#e60014;
+	}
 
 	
 	
@@ -1043,41 +1083,53 @@
 /*about us结束*/
 	 
 	 /*service*/
-	 .service{
-	   padding: 50px 0 0 0 ;
-	 } 
-	 .service-content{
-	 	width: 60%;
-	    position: absolute;
-	    top: 30%;
-	    left: 20%;
-	    text-align: center;
-	    color: #ffffff;
-	 }
-	 .service-content h2{
-	 	font-size: 50px;
-        margin-bottom: 20px;
-	 }
-	 .service-content p{
-	 	color:#ffffff;
-	 	font-size:14px;
-	 }
-	 .service-layout{
-	 	
-	 	text-align: center;
-	    padding: 40px 350px;
-	    width: 100%;
-	    background: #f5f5f5;
-	 }
-	 .service-layout h2{
-	 	margin-top: 0px;
-	 	margin-bottom: 30px;
-	 	color: #6E6E6E;
-	 }
-	 .service-layout p{	 	
-	 	margin-bottom: 30px;
-	 	color: #6E6E6E;
-	 }
+  .service_bg {
+    background: url(../images/services/service_bg.jpg) no-repeat;
+    min-height: 280px;
+    position: relative;
+    padding-top: 70px;
+    padding-left: 130px;
+    color: #5bb95b;
+    background-size: 1350px;
+    margin-top: 50px;
+   }
+
+.service_bg h2{
+	font-family: 'impact';
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#g2g_service{
+	padding: 50px 0px;
+}
+#g2g_service h3{
+	color:#ffffff;
+	font-size: 35px;
+	text-align: center;
+}
+.service_bg p{
+	 font-size:16px; 
+	 color:#ffffff;
+}
+#g2g_service p{
+	font-size:20px;
+	margin-bottom:10px;
+}
+
+#g2g_service a{
+	margin-top: 30px;
+}
+.service_content{
+	padding-top:20px;
+}
+
+.layout{
+	width: 200px;
+	height:160px;
+	background:#000000;
+	float: right;
+	padding:30px 0px;
+}
 
    /**product page开始**/
     .productcontent{
@@ -1366,6 +1418,13 @@
 	.aurora_sv_white div{
 		position:absolute;
 		width: 35%;
+		height: 20%;
+		top:200px;
+		left:85px;
+	}
+	.retrofit_kit div{
+		position:absolute;
+		width: 28%;
 		height: 20%;
 		top:200px;
 		left:85px;
@@ -1728,6 +1787,20 @@
 	}
 	
 	/*category page开始*/
+.second_bg{
+	background: url(../images/se_bg.jpg) no-repeat;
+	min-height: 400px;
+	position: relative;
+	padding-top: 180px;
+	text-align: center;
+	color: #ffffff;
+	background-size: 1350px;
+	
+}
+.second_bg h2 {
+    font-family: 'impact';
+    font-size: 55px;
+}
 .signHead{
 	padding:5% 0;
 	background:#f5f5f5;

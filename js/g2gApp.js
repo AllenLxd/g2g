@@ -14,10 +14,8 @@
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'aurora_sv_white.html'},
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'aurora_sv_red.html'},
 			{pid:'signlighting', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'aurora_i_red.html'},
-			/*{pid:'signlighting', cid:'nox', img: 'channel_letter/nox.jpg', href: 'NOX-Series.html'},*/
-			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro.jpg', href: 'anpro_160.html'},
+			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro_160.jpg', href: 'anpro_160.html'},
 			{pid:'signlighting', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'wow_series.html'},
-			/*{pid:'signlighting', cid:'wow', img: 'channel_letter/wow_red.jpg', href: 'WOW-Red.html'},*/
 			{pid:'signlighting', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_180.html'},
 			{pid:'signlighting', cid:'micro', img: 'channel_letter/micro.jpg', href: 'micro.html'},
 			
@@ -25,9 +23,8 @@
 
 			{pid:'signlighting', cid:'side', img: 'sign_box/side.jpg', href: 'side.html'},
 			{pid:'signlighting', cid:'side', img: 'sign_box/slim_side_bar.jpg', href: 'slim_side.html'},
-			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sf.html'},
-			{pid:'signlighting', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_df.html'},
-			/*{pid:'signlighting', cid:'sparx', img: 'sign_box/sparx.jpg', href: 'SparX-Lighting-System.html'},*/
+			{pid:'signlighting', cid:'array', img: 'sign_box/array_sf.jpg', href: 'array_sf.html'},
+			{pid:'signlighting', cid:'array', img: 'sign_box/array_df.jpg', href: 'array_df.html'},
 			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'trident_df.html'},
 			{pid:'signlighting', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'trident_sf.html'},
 			{pid:'signlighting', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_df_stick.html'},
@@ -83,7 +80,7 @@
 
 
 
-			{pid:'commerciallighting', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube.html'},
+			{pid:'commerciallighting', cid:'4ft', img: 'tube/tube.jpg', href: 'tube.html'},
 
 
 
@@ -96,18 +93,15 @@
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_white.jpg', href: 'aurora_sv_white.html'},
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_sv_red.jpg', href: 'aurora_sv_red.html'},
 			{pid:'letter', cid:'aurora', img: 'channel_letter/aurora_red.jpg', href: 'aurora_i_red.html'},
-			/*{pid:'letter', cid:'nox', img: 'channel_letter/nox.jpg', href: 'NOX-Series.html'},*/
-			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro.jpg', href: 'anpro_160.html'},
+			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro_160.jpg', href: 'anpro_160.html'},
 			{pid:'letter', cid:'anpro', img: 'channel_letter/anpro_180.jpg', href: 'anpro_180.html'},
 			{pid:'letter', cid:'wow', img: 'channel_letter/wow_white.jpg', href: 'wow_series.html'},
-			/*{pid:'letter', cid:'wow', img: 'channel_letter/wow_red.jpg', href: 'WOW-Red.html'},*/
 			{pid:'letter', cid:'micro', img: 'channel_letter/micro.jpg', href: 'micro.html'},
 
 			{pid:'sign', cid:'side', img: 'sign_box/side.jpg', href: 'side.html'},
 			{pid:'sign', cid:'side', img: 'sign_box/slim_side_bar.jpg', href: 'slim_side.html'},
-			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_sf.html'},
-			{pid:'sign', cid:'array', img: 'sign_box/g2g_array.jpg', href: 'array_df.html'},
-			/*{pid:'sign', cid:'sparx', img: 'sign_box/sparx.jpg', href: 'SparX-Lighting-System.html'},*/
+			{pid:'sign', cid:'array', img: 'sign_box/array_sf.jpg', href: 'array_sf.html'},
+			{pid:'sign', cid:'array', img: 'sign_box/array_df.jpg', href: 'array_df.html'},
 			{pid:'sign', cid:'trident', img: 'sign_box/trident_df.jpg', href: 'trident_df.html'},
 			{pid:'sign', cid:'trident', img: 'sign_box/trident_sf.jpg', href: 'trident_sf.html'},
 			{pid:'sign', cid:'trident-stick', img: 'sign_box/stick_df.jpg', href: 'trident_df_stick.html'},
@@ -162,7 +156,7 @@
 			{pid:'retrofit', cid:'150W', img: 'retrofit/retrofit_150.jpg', href: 'retrofit_kit_150W.html'},
 			{pid:'retrofit', cid:'200W', img: 'retrofit/retrofit_200.jpg', href: 'retrofit_kit_200W.html'},
 
-			{pid:'tube', cid:'4ft', img: 'tube/tube_4ft.jpg', href: 'tube.html'},
+			{pid:'tube', cid:'4ft', img: 'tube/tube.jpg', href: 'tube.html'},
 			
 		
 
@@ -173,6 +167,7 @@
 		$scope.cid = '';
 		$scope.flag = 1;
 		$scope.filtered = $scope.products
+		
 
 	    $scope.filterProducts = function(pid, cid) {
 			    //赋值
@@ -202,6 +197,9 @@
 		    		$scope.pid = pid;
 				$scope.cid = cid;
 	    };
+	    
+	    $scope.filterProducts('signlighting','');
+	    
 	});
 	
 
