@@ -109,6 +109,7 @@
 
 	label{
 		font-weight: 300;
+		
 	}
 	
 	#pre-status,
@@ -301,8 +302,10 @@
 		border-radius: 2px;
 	    margin-top:15px;
 	    padding:5px;
-	    font-size:15px;
 	    line-height:1.2;
+	    font-family: 'helvetica'; 
+		font-weight:bold;
+		font-size: 14px;
 	}
 	.banner-letter {
 		left: 10%;
@@ -311,11 +314,12 @@
 		width:450px;
 		margin: 0px; 
 	}
-	.banner-letter p{
+	.carousel-caption p{
 		font-family: 'helvetica'; 
 		font-weight:bold;
-		font-size: 16px;
+		font-size: 15px;
 	}
+	
 	.banner-trico {
 		left: 7%;
 		top: 45%;
@@ -667,8 +671,9 @@
 		.link-content p{
 			font-size:12px;	
 			line-height:1.2;
-			font-family: 'opensans';
+			font-family: 'Sans';
 			-webkit-transform: scale(0.875);
+			font-weight: bold;
 		}
        .link-content a{
 		  background:#ffffff;
@@ -780,7 +785,7 @@
        	margin-top:20px;
        	font-size:15px;
        	color:#60b562;
-       	font-family: 'opensans'
+       	font-family: 'helvetica';
        	
        }
        .news-padding{
@@ -1255,67 +1260,67 @@
 	
 	}
 	.secondclassify  li a.letter{
-		background-position:27px 12px;
+		background-position:40px 16px;
 	}
 	.secondclassify  li a.letter.active{
-		background-position:28px 12px;
+		background-position:40px 20px;
 	
 	}
 	.secondclassify  li a.product_sign{
-		background-position:38px 12px;
+		background-position:46px 17px;
 	}
 	.secondclassify  li a.product_sign.active{
-		background-position:38px 12px;
+		background-position:45px 19px;
 	}
 	.secondclassify  li a.neon{
-		background-position:43px 12px;
+		background-position:49px 17px;
 	}
 	.secondclassify  li a.neon.active{
-		background-position:43px 12px;
+		background-position:49px 19px;
 	}
 	.secondclassify  li a.controller{
-		background-position:20px 12px;
+		background-position:28px 17px;
 	}
 	.secondclassify  li a.controller.active{
-		background-position:20px 12px;
+		background-position:30px 19px;
 	}
 	
 	.secondclassify  li a.accessories{
-		background-position:43px 12px;
+		background-position:50px 17px;
 	}
 	.secondclassify  li a.accessories.active{
-		background-position:43px 12px;
+		background-position:48px 19px;
 	}
 	
 	.secondclassify  li a.wall{
-		background-position:38px 12px;
+		background-position:42px 17px;
 	}
 	.secondclassify  li a.wall.active{
-		background-position:38px 12px;
+		background-position:41px 19px;
 	}
 	.secondclassify  li a.flood{
-		background-position:40px 12px;
+		background-position:48px 16px;
 	}
 	.secondclassify  li a.flood.active{
-		background-position:40px 12px;
+		background-position:46px 19px;
 	}
 	.secondclassify  li a.shoe{
-		background-position:28px 12px;
+		background-position:31px 17px;
 	}
 	.secondclassify  li a.shoe.active{
-		background-position:33px 12px;
+		background-position:34px 19px;
 	}
 	.secondclassify  li a.retrofit{
-		background-position:45px 12px;
+		background-position:49px 17px;
 	}
 	.secondclassify  li a.retrofit.active{
-		background-position:45px 12px;
+		background-position:48px 18px;
 	}
 	.secondclassify  li a.t8{
-		background-position:55px 12px;
+		background-position:58px 16px;
 	}
 	.secondclassify  li a.t8.active{
-		background-position:55px 12px;
+		background-position:56px 18px;
 	}
 	.btn:active, .btn.active {
 		background-image: none;
@@ -1412,6 +1417,16 @@
 		width:100%;
 		position:relative;
 	}
+	.detail-banner p{
+		line-height: 1.2;
+	}
+   .detail-banner div.trident_df{
+		top:210px;
+	}
+	.detail-banner div.trident_sf{
+		top:210px;
+		width: 400px;
+	}
 	.detail-banner img{
 		width:100%;
 	}
@@ -1430,7 +1445,7 @@
 		left:85px;
 	}
 	.aurora_sv_white div.wall{
-		width: 33%;
+		width: 30%;
 
 	}
 	.detail{
@@ -1468,11 +1483,11 @@
 		padding: 10px 0px;
 	}
 	.featurs ul{
-		font-size:13px;
+		font-size:15px;
 		color:#221715;		
 	}
 	.featurs ul li{
-		padding-top: 10px;	
+		padding-top: 5px;	
 	}
 	.detail-video{
 		padding:60px 20px 0px 20px;
@@ -1519,7 +1534,7 @@
 		width:100%;
 		height:70px;
 		background:#d5d5d5;
-		padding-top: 13px;
+		padding: 13px 0px 0px 70px;
 	}
 	.colors div.color-span{
 		width: 110px;
@@ -1688,6 +1703,9 @@
     }
     .address {
 	   margin-bottom: 20px;
+    }
+    .address label{
+	   font-size:13px;
     }
     .address h4 {
 	    color: #797979;
