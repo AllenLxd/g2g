@@ -370,7 +370,8 @@
 	}
 	
 	.banner-flex {
-		left: 25%;
+		width: 630px;
+         margin: 0 auto;
 		top: 30%;
 		color:#ffffff;	
 	}
@@ -862,7 +863,7 @@
        	box-shadow: 1px 1px 5px #888888;
        }
        .product-classification img{
-       	width:230px;
+       	width:100%;
        	height:150px;
        }
        .product-classification h4{
@@ -1998,6 +1999,7 @@
 .support{
 	font-family: 'impact';
     font-size: 55px;
+    margin-bottom:20px; 
 }
 .downloadBg{
 	padding-left:0px;
