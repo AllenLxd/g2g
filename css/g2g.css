@@ -1417,6 +1417,12 @@
 		width:100%;
 		position:relative;
 	}
+	.sign_accessories{
+		margin-top: 50px;
+		height:350px;
+		width:100%;
+		position:relative;
+	}
 	.detail-banner p{
 		line-height: 1.2;
 	}
@@ -1982,12 +1988,16 @@
 }
 .SupportBg{
 	background:url('../images/download.jpg') no-repeat;
-	min-height:558px;
+	min-height:510px;
 	position:relative;
-	padding-top:180px;
+	padding-top:210px;
 	text-align:center;
 	color:#ffffff;
 	background-size:1350px;
+}
+.support{
+	font-family: 'impact';
+    font-size: 55px;
 }
 .downloadBg{
 	padding-left:0px;
