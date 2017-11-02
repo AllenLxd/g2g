@@ -670,10 +670,12 @@
 		}
 		.link-content p{
 			font-size:12px;	
-			line-height:1.2;
-			font-family: 'Sans';
-			-webkit-transform: scale(0.875);
-			font-weight: bold;
+			line-height:1.1;
+			transform:rotate(1);
+			-ms-transform:rotate(1g); 	/* IE 9 */
+			-moz-transform:rotate(1); 	/* Firefox */
+			-webkit-transform:rotate(1); /* Safari 和 Chrome */
+			-o-transform:rotate(1); 
 		}
        .link-content a{
 		  background:#ffffff;
@@ -843,6 +845,7 @@
        .news-content p{
       	    color:#ffffff;
       	    font-size:12px;
+      	    line-height:1.2;
       	   
        }
        .news-date{
