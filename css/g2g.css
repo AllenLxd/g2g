@@ -315,8 +315,7 @@
 		margin: 0px; 
 	}
 	.carousel-caption p{
-		font-family: 'helvetica'; 
-		font-weight:bold;
+
 		font-size: 15px;
 	}
 	
@@ -899,8 +898,7 @@
       	padding:0px;
       }
       .contact{
-      	border-left: 0.5px solid #9f9f9f;
-      	padding-left: 20px;
+      	padding-left: 30px;
       }
        .home-contact{
        	
@@ -920,8 +918,10 @@
        }
        .contact p.content{
        	text-indent: 22px;
-       	font-size: 11px;
+       	font-size: 12px;
        	margin-top: 0px;
+       	line-height:1.1;
+       	padding-top:2px;
        }
        .contact-content{
        	margin-bottom:10px;
@@ -1673,21 +1673,33 @@
 		right: 25px;
 	}
 	/**videos开始**/
-    .installation-video {
-		background: #eee7e4;
-		padding: 80px 0 10px 0;
+    .install_video{
+    	     margin-top: 50px;
     }
-    .installation-video h2 {
-	    text-align: center;
-	    margin-bottom: 40px;
-	    color: #c86b2e;
-	    font-size: 40px;
+     .install_video h3{
+    	     font-family: 'impact';
+         font-size: 55px;
+         margin-bottom: 30px;
+    }
+    .install_video h4{   	     
+         line-height:36px;
+    }
+    .about-grids {
+	    margin-top: 30px;
 	}
-	.installation-video div p {
-	    margin-top: 20px;
-	    font-size: 20px;
-	    text-align: center;
-	    color: #017467;
+	.about-grids iframe{
+	    width:100%;
+	    height: 250px;
+	    background:pink;
+	}
+	.about-grid h4 {
+	    font-size: 15px;
+	    margin: 10px 0 11px 0;
+	    color: #5bc0de;
+	    font-weight: 400;
+	}
+	.video_buttom{
+		margin-bottom:50px;
 	}
 	/**videos 结束**/
 	
