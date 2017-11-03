@@ -423,6 +423,21 @@
 			width:400px;
 			margin: 0px; 	
 	}
+	.banner-anpro .stick_bg{
+			height: 45px;
+			width:350px;
+			background:url('../images/banner/stick_bg.png') 50px 0px no-repeat;
+			margin: 5px 0px;
+			padding-left:20px;
+			line-height:54px
+	}
+	.banner-anpro .serise_bg{
+			height: 40px;
+			width:350px;
+			background:url('../images/banner/series_bg.png') 30px 16px no-repeat;
+			margin-top:10px
+
+	}
 	.banner-anpro h3{
 			letter-spacing: 4px;
 	}
