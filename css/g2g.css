@@ -1466,15 +1466,15 @@
         left: 7%;
 	}
 	
-	@media only screen and (max-width: 1542px) {
+	@media screen and (max-device-width: 1500px) {
 	    .aurora_sv_white div {
-	        top: 51%;
+	        top: 60%;
              left: 7%;
 	    }    
 	}
-	@media only screen and (max-width: 1280px) {
+	@media screen and (max-device-width: 1280px){
 	    .aurora_sv_white div {
-	        top: 60%;
+	        top: 51%;
              left: 7%;
 	    }    
 	}
