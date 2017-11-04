@@ -417,7 +417,7 @@
 	}
 
 	.banner-anpro{
-			left: 135px;
+			left: 13%;
 			top: 223px;
 			color:#ffffff;
 			width:400px;
@@ -996,6 +996,7 @@
      .foot-bg{
      	background:url('../images/foot-bg.jpg')  no-repeat;
      	padding: 100px 20px 30px 20px;
+     	background-size:100%;
      }
      .signlogo{
 	float:left;
@@ -1046,7 +1047,7 @@
 	padding-top: 180px;
 	text-align: center;
 	color: #000000;
-	background-size: 1350px;
+	background-size: 100%;
 	
 }
 .aboutus_bg h2{
@@ -1454,14 +1455,28 @@
 		width: 400px;
 	}
 	.detail-banner img{
-		width:100%;
+		min-height:386px;
+	    width:100%;
 	}
 	.aurora_sv_white div{
 		position:absolute;
 		width: 35%;
 		height: 20%;
-		top:200px;
-		left:85px;
+		top: 50%;
+        left: 7%;
+	}
+	
+	@media only screen and (max-width: 1542px) {
+	    .aurora_sv_white div {
+	        top: 51%;
+             left: 7%;
+	    }    
+	}
+	@media only screen and (max-width: 1280px) {
+	    .aurora_sv_white div {
+	        top: 60%;
+             left: 7%;
+	    }    
 	}
 	.retrofit_kit div{
 		position:absolute;
@@ -1850,7 +1865,7 @@
 	padding-top: 180px;
 	text-align: center;
 	color: #ffffff;
-	background-size: 1350px;
+	background-size: 100%;
 	
 }
 .second_bg h2 {
