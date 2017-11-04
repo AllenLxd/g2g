@@ -369,7 +369,7 @@
 	}
 	
 	.banner-flex {
-		width: 630px;
+		width: 600px;
          margin: 0 auto;
 		top: 30%;
 		color:#ffffff;	
@@ -1116,7 +1116,7 @@
     padding-top: 70px;
     padding-left: 130px;
     color: #5bb95b;
-    background-size: 1350px;
+    background-size: 100%;
     margin-top: 50px;
    }
 
@@ -2040,12 +2040,12 @@
 }
 .SupportBg{
 	background:url('../images/download.jpg') no-repeat;
-	min-height:510px;
+	min-height:478px;
 	position:relative;
 	padding-top:210px;
 	text-align:center;
 	color:#ffffff;
-	background-size:1350px;
+	background-size:100%;
 }
 .support{
 	font-family: 'impact';
