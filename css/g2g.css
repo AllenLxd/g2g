@@ -1143,11 +1143,10 @@
 }
 
 #g2g_service a{
-	margin-top: 30px;
+	margin-top:4px;
+	
 }
-.service_content{
-	padding-top:20px;
-}
+
 
 .layout{
 	width: 200px;
